@@ -58,8 +58,8 @@ section {
 	width: 70%;
 }
 
-#nav a,
-.suzinoti-daugiau a {
+#nav button,
+.suzinoti-daugiau button {
 	text-transform: uppercase;
 	font-size: 12px;
 	font-family: 'Raleway', sans-serif;
@@ -136,6 +136,10 @@ p {
 	text-align: center;
 }
 
+footer p {
+	font-size: 70%;
+}
+
 /* -------------
 HEADER
 ---------------*/
@@ -188,18 +192,21 @@ HEADER
 	width: 50%;
 }
 
+.suzinoti-daugiau button {
+	background-color: rgba(0, 0, 0, 0.3);
+	padding: 18px 20px;
+	border: 2px #fff solid;
+}
+
 .suzinoti-daugiau {
 	position: absolute;
 	top: 83%;
 	transform: translateY(-50%);
-	border: 2px #fff solid;
-	background-color: rgba(0, 0, 0, 0.3);
-	width: 170px;
-	height: 50px;
 }
 
 .suzinoti-daugiau:hover {
 	background-color: rgba(0, 0, 0, 0.664);
+	transition-duration: 0.2s;
 }
 
 .image-line {
@@ -321,19 +328,25 @@ INDEX3
 }
 
 .ziureti-daugiau {
-	background-color: rgba(255, 255, 255, 0.822);
-	border: none;
-	padding: 15px 30px;
 	margin-top: 30px;
 }
 
-.ziureti-daugiau a {
+.ziureti-daugiau button {
+	padding: 15px 30px;
 	text-transform: uppercase;
 	text-decoration: none;
 	color: rgb(98, 98, 98);
 	font-size: 12px;
 	font-family: 'Raleway', sans-serif;
 	letter-spacing: 1.1px;
+	background-color: rgba(255, 255, 255, 0.822);
+	border: 1px rgba(170, 170, 170, 0.137) solid;
+}
+
+.ziureti-daugiau button:hover {
+	color: #b00208;
+	border: 1px #80141773 solid;
+	transition-duration: 0.2s;
 }
 
 /* -------------
@@ -599,12 +612,18 @@ LINKS
 	font-size: 90%;
 }
 
+.aplankykite {
+	width: 18%;
+}
+
 .nuoroda h4 {
 	padding-bottom: 20px;
 }
 
 .apie {
 	text-align: justify;
+	font-size: 70%;
+	line-height: 160%;
 }
 
 .nuoroda ion-icon {
