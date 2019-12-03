@@ -3,15 +3,17 @@
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         
+        <link href="all.css" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="stylesheet.css">
         <link rel="stylesheet" type="text/css" href="queries.css">
-        <link href="https://fonts.googleapis.com/css?family=Caveat+Brush|Raleway:100,300,400,500,700&display=swap" rel="stylesheet">    </head>
+        <link href="https://fonts.googleapis.com/css?family=Caveat+Brush|Raleway:100,300,400,500,700&display=swap" rel="stylesheet">
+    </head>
 
     <body>
         <header>
             <div id="header" class="flex-column">
                 <img src="logo.png" alt="logotipas" id="logo">
-                <div id="nav" class="row flex-row">
+                <div id="navbar" class="nav row flex-row">
                     <a href="index.html"><button>pradžia</button></a>
                     <a href="sventems.html"><button>šventėms</button></a>
                     <a href="vienetiniai.html"><button>vienetiniai</button></a>
@@ -28,7 +30,7 @@
                 </div>
             </div>
         </header>
-        <section id="index1" class="flex-column row">
+        <section id="index1" class="flex-column row jsnav">
             <div class="title flex-row">
                 <img src="orn2.png" alt="ornamentas" class="ornament">
                 <h2>Kitokios gėlės</h2>
@@ -202,9 +204,11 @@
 			<div>
 				<p>www.kitokiosgeles.lt © 2019</p>
 			</div>
-        </footer>
+        </footer> 
         
         <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+        <script src="jquery.waypoints.min.js"></script>
         <script src="script.js"></script>
+
     </body>
 </html>

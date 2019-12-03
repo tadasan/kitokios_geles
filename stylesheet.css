@@ -58,7 +58,7 @@ section {
 	width: 70%;
 }
 
-#nav button,
+.nav button,
 .suzinoti-daugiau button {
 	text-transform: uppercase;
 	font-size: 12px;
@@ -71,6 +71,10 @@ section {
 .flex {
 	display: flex;
 	flex-wrap: wrap;
+}
+
+a {
+	text-decoration: none;
 }
 
 /* -------------
@@ -117,7 +121,7 @@ p {
 	text-decoration: none;
 }
 
-.product p {
+#index3 .product p {
 	text-align: center;
 	padding: 8px 0;
 	font-size: 13px;
@@ -153,23 +157,24 @@ HEADER
 	margin-top: 10px;
 }
 
-#nav {
+.nav {
 	background-color: #111;
 	height: 40px;
 	margin: 20px 0px 10px 0px;
 }
 
-#nav button {
+.nav button {
 	height: 40px;
 	width: 120px;
 	background-color: transparent;
 	border: none;
 }
 
-#nav button:hover {
+.nav button:hover {
 	background-color: #444;
 	transition-duration: 0.2s;
 }
+
 
 
 
@@ -285,14 +290,16 @@ INDEX2
 INDEX3
 ---------------*/
 
-#index3 {
+#index3,
+#prieziura1 {
 	background-color: rgba(235, 221, 221, 0.239);
 	background-size: cover;
 	display: flex;
 	justify-content: center;
 }
 
-#index3 .products {
+#index3 .products,
+#prieziura1 .products {
 	width: 1040px;
 	padding: 10px 0;
 }
@@ -536,6 +543,7 @@ VIENETINIAI
 	}
   }
 
+
   /* -------------
 GELES 
 ---------------*/
@@ -566,6 +574,68 @@ GELES
 	transition-duration: 0.2s;
 }
 
+ /* -------------
+PRIEZIURA
+---------------*/
+
+
+
+.prieziura-text {
+	width: 450px;
+	padding: 15px;
+	margin: 20px;
+}
+
+.prieziura-container img {
+	width: 450px;
+	margin: 30px;
+}
+
+.flex-start {
+	align-items: flex-start;
+}
+
+.isskleistas {
+	width: 1200px;
+	border-top: 1px solid rgba(75, 75, 75, 0.185);
+}
+
+.isskleistas .flex-row {
+	align-items: flex-start;
+}
+
+.prieziura-col {
+	width: 205px;
+	margin: 10px;
+}
+
+.prieziura-col h5 {
+	text-align: left;
+	text-transform: uppercase;
+}
+
+.prieziura-col p {
+	text-align: left;
+}
+
+i {
+	font-size: 2em; 
+	color: #4CAF50;
+}
+
+.prieziura-container {
+	background-color: #fff;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.082), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin-bottom: 40px;
+}
+
+.w3-container {
+	margin: 30px 0 20px 0;
+}
+
+hr {
+	color: black;
+}
 /* -------------
 APIE 
 ---------------*/
@@ -654,4 +724,21 @@ footer div {
 	display: flex;
 	justify-content: center;
 	padding: 30px;
+}
+
+
+
+
+
+.sticky {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background-color: #111;;
+	box-shadow: 0 2px 2px rgba(17, 17, 17, 0.383);;
+	z-index: 999;
+	margin: 0px;
+	padding-top: 25px;
+	padding-bottom: 25px;
 }
