@@ -419,10 +419,11 @@ SVENTEMS1
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	position: relative;
 	height: 133.6px;
-	margin: 2px;
+	margin: 0 10px;
 }
 
 #sventems1 img {
+	object-fit: cover;
 	width: 200px;
 	height: 133.6px;
 }
@@ -457,20 +458,95 @@ SVENTEMS1
 SVENTEMS2,3,4,5
 ---------------*/
 
-#sventems2 {
-	background-color: #eee;
+#sventems2,
+#sventems4,
+#sventems6 {
+	background-color: rgba(112, 104, 104, 0.109)
+}
+
+.space {
+	margin-bottom: 40px;
+}
+
+.element {
+	margin: 7px;
+}
+
+.element1 {
+	width: 570px;
+	height: 427.5px;
+	position: relative;
+}
+
+.element1 img  {
+	object-fit: cover;
+	width: 570px;
+	height: 427.5px;
+}
+
+.element1 p {
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	color: #eee;
+	font-size: 180%;
+	text-transform: uppercase;
+}
+
+.element2,
+.element3,
+.element4 {
+	width: 280px;
+	height: 427.5px;
+	background-color: #fff;
+}
+
+.element3 img {
+	object-fit: cover;
+	width: 280px;
+	height: 427.5px;
+}
+
+.element2 img {
+	object-fit: cover;
+	width: 280px;
+	height: 210px;
+}
+
+.element4 img {
+	object-fit: cover;
+	width: 120px;
+	height: 120px;
+	border: 0px solid transparent;
+	border-radius: 200px;
+}
+
+.element4-text {
+	width: 280px;
+	height: 227.5px;
+}
+
+.element2-text1 {
+	width: 280px;
+	height: 165px;
+}
+
+.element2-text2 {
+	width: 280px;
+	height: 46px;
 }
 
 #sventems3 {
-	background-image: linear-gradient(to right, rgba(116, 128, 94, 0.6), rgba(0, 0, 0, 0.602)), url(../images/dotss.jpg);
-}
-
-#sventems4 {
-	background-color: #eee;
+	background-image: linear-gradient(to right, rgba(129, 129, 129, 0.6), rgba(129, 129, 129, 0.6)), url(../images/coveriss.jpg);
+	background-size: cover;
+	background-attachment: fixed;
 }
 
 #sventems5 {
-	background-image: linear-gradient(to right, rgba(116, 128, 94, 0.6), rgba(0, 0, 0, 0.602)), url(../images/dotss.jpg);
+	background-image: linear-gradient(to right, rgba(116, 128, 94, 0.6), rgba(0, 0, 0, 0.602)), url(../images/inglass.jpg);
+	background-size: cover;
+	background-attachment: fixed;
 }
 
 .container {
@@ -499,6 +575,8 @@ margin-top: 30px;
 #sventems5 .flex-row {
 	flex-wrap: wrap;
 }
+
+
 
 /* -------------
 VIENETINIAI
