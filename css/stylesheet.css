@@ -38,7 +38,7 @@ body {
 }
 
 .row {
-	width: 90%;
+	width: 100%;
 	margin: 0 auto;
 }
 
@@ -92,8 +92,16 @@ h2 {
 
 	font-weight: 400;
 	letter-spacing: 1.1px;
-	color: #b00208;
-	font-family: 'Caveat Brush', cursive;
+	color: #131313;;
+	Font-Family: 'Abril Fatface', Cursive;
+Font-Size: 48px;
+}
+
+h3 {
+	color: #eee;
+	text-align: left;
+	text-transform: uppercase;
+	Font-Family: 'Poppins', Sans-Serif;
 }
 
 h5 {
@@ -111,6 +119,17 @@ p {
 	font-size: 15px;
 	text-align: justify;
 	letter-spacing: 1.1px;
+	Font-Family: 'Poppins', Sans-Serif;
+	Font-Size: 14px;
+}
+
+h5,
+h4 {
+	padding-bottom: 10px;
+	color: rgba(114, 157, 57);
+	text-align: left;
+	text-transform: uppercase;
+	Font-Family: 'Poppins', Sans-Serif;
 }
 
 .card p {
@@ -160,13 +179,13 @@ HEADER
 
 .nav {
 	background-color: #111;
-	height: 40px;
-	margin: 20px 0px 10px 0px;
+	height: 60px;
+	margin: 20px 0px 0px 0px;
 }
 
 .nav button {
-	height: 40px;
-	width: 120px;
+	height: 60px;
+	width: 130px;
 	background-color: transparent;
 	border: none;
 }
@@ -184,18 +203,24 @@ HEADER
 }
 
 #slides {
-	background-image: url(../images/coveris.jpg);
+	background-image: url(../images/coveriss.jpg);
 	background-repeat: no-repeat;  
 	background-size: cover;
-	height: 450px;
+	height: 600px;
 	position: relative;
 }
 
 #hero-text {
 	position: absolute;
-	top: 65%;
-	transform: translateY(-50%);
+	bottom: 3%;
+	/* background-color: rgba(12, 9, 9, 0.89); */
 	width: 50%;
+	height: 210px;
+}
+
+#hero-text h1 {
+	margin: 0 auto;
+	padding: 40px;
 }
 
 .suzinoti-daugiau button {
@@ -206,7 +231,7 @@ HEADER
 
 .suzinoti-daugiau {
 	position: absolute;
-	top: 83%;
+	top: 91%;
 	transform: translateY(-50%);
 }
 
@@ -215,9 +240,9 @@ HEADER
 	transition-duration: 0.2s;
 }
 
-.image-line {
+/* .image-line {
 	background-image: url(../images/xxx.jpg);
-	width: 90%;
+	width: 1350px;
 	background-size: cover;
 }
 
@@ -225,7 +250,7 @@ HEADER
 	background-color: rgba(255, 255, 255, 0.513);
 	padding: 20px 30px;
 	margin: 40px 0;
-}
+} */
 
 /* -------------
 INDEX1
@@ -291,16 +316,14 @@ INDEX2
 INDEX3
 ---------------*/
 
-#index3,
-#prieziura1 {
-	background-color: rgba(235, 221, 221, 0.239);
+#index3 {
+	background-color: #eeeeee;
 	background-size: cover;
 	display: flex;
 	justify-content: center;
 }
 
-#index3 .products,
-#prieziura1 .products {
+#index3 .products {
 	width: 1040px;
 	padding: 10px 0;
 }
@@ -332,7 +355,7 @@ INDEX3
 
 .price {
 	color: #fff;
-	background-color: #b00208;
+	background-color: #BB2528;
 }
 
 .ziureti-daugiau {
@@ -352,9 +375,11 @@ INDEX3
 }
 
 .ziureti-daugiau button:hover {
-	color: #b00208;
+	color: #BB2528;
 	border: 1px #80141773 solid;
 	transition-duration: 0.2s;
+	#fae16c
+	rgb(183, 66, 50)
 }
 
 /* -------------
@@ -365,17 +390,84 @@ INDEX4
 
 }
 
-#index4-img, 
-#apie1-img,
+#index4-img,
 #parduotuve1-img {
 	width: 400px;
 	margin: 0 50px;
 }
 
-#index4-text, 
-#apie1-text,
+#index4-text,
 #parduotuve1-text {
 	width: 400px;
+}
+
+#intarpas {
+	background-image: url(../images/coverisss.jpg);
+	background-size: cover;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.green {
+	background: linear-gradient(to right, rgba(114, 157, 57, 0.77) 0%, rgba(114, 157, 57, 0.76) 16%, rgba(114, 157, 57, 0.93) 72%, rgba(114, 157, 57, 0.95) 100%);
+	padding: 40px;
+	width: 670px;
+	height: 280px;
+	color: #f5dcd0;
+	position: relative;
+	position: absolute;
+	transform: translate(-8%, -8%);
+	z-index: 998;
+}
+
+.grey {
+	padding: 50px;
+	width: 670px;
+	background-color: #e6e4bf;
+	z-index: 999;
+}
+
+.grey h2 {
+	color: #131313;
+}
+
+.icon-scroll,
+.icon-scroll:before {
+  position: absolute;
+  left: 50%;
+}
+
+.icon-scroll {
+  width: 40px;
+  height: 70px;
+  margin-left: -20px;
+  top: 88%;
+  margin-top: -35px;
+  box-shadow: inset 0 0 0 1px #fff;
+  border-radius: 25px;
+}
+
+.icon-scroll:before {
+  content: '';
+  width: 8px;
+  height: 8px;
+  background: #fff;
+  margin-left: -4px;
+  top: 8px;
+  border-radius: 4px;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  animation-name: scroll;
+}
+
+@keyframes scroll {
+  0% {
+		opacity: 1;
+	}
+  100% {
+    opacity: 0;
+	transform: translateY(46px);
+  }
 }
 
 /* -------------
@@ -383,7 +475,7 @@ INDEX5
 ---------------*/
 
 #index5 {
-	background-image: url(../images/xx.jpg);
+	background-image: url(../images/raudona.jpg);
 	background-size: cover;
 	height: 600px;
 	position: relative;
@@ -461,15 +553,12 @@ SVENTEMS2,3,4,5
 #sventems2,
 #sventems4,
 #sventems6 {
-	background-color: rgba(112, 104, 104, 0.109)
-}
-
-.space {
-	margin-bottom: 40px;
+	background-color: #e6e4bf;
 }
 
 .element {
 	margin: 7px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.082), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .element1 {
@@ -484,14 +573,61 @@ SVENTEMS2,3,4,5
 	height: 427.5px;
 }
 
-.element1 p {
+.element1 h3 {
 	position: absolute;
-	top:50%;
-	left:50%;
 	transform: translate(-50%, -50%);
-	color: #eee;
 	font-size: 180%;
-	text-transform: uppercase;
+	letter-spacing: 3px;
+	color: #fff;
+}
+
+#sventems2 .element1 h3 {
+	top:70%;
+	left:40%;
+}
+
+#sventems3 .element1 h3 {
+	top:15%;
+	left:77%;
+	text-align: right;
+}
+
+#sventems4 .element1 h3 {
+	top:18%;
+	left:38%;
+}
+
+#sventems5 .element1 h3 {
+	top:85%;
+	left:30%;
+}
+
+#sventems6 .element1 h3 {
+	top:15%;
+	left:38%;
+}
+
+.element h5,
+.element p {
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.element4 h5 {
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.element4 hr {
+	border-top: 1px solid #c6e377;
+	width: 50px;
+}
+
+.element2 hr {
+	border-top: 1px solid #c6e377;
+	width: 90%;
+	margin: 0 auto;
 }
 
 .element2,
@@ -538,13 +674,13 @@ SVENTEMS2,3,4,5
 }
 
 #sventems3 {
-	background-image: linear-gradient(to right, rgba(129, 129, 129, 0.6), rgba(129, 129, 129, 0.6)), url(../images/coveriss.jpg);
+	background-color: #ffffffef;
 	background-size: cover;
 	background-attachment: fixed;
 }
 
 #sventems5 {
-	background-image: linear-gradient(to right, rgba(116, 128, 94, 0.6), rgba(0, 0, 0, 0.602)), url(../images/inglass.jpg);
+	background-color: #fff;
 	background-size: cover;
 	background-attachment: fixed;
 }
@@ -565,10 +701,6 @@ margin-top: 30px;
 	margin: 10px;
 }
 
-.box hr {
-
-}
-
 #sventems2 .flex-row, 
 #sventems3 .flex-row,
 #sventems4 .flex-row,
@@ -582,55 +714,46 @@ margin-top: 30px;
 VIENETINIAI
 ---------------*/
 
-.gallery-title1 {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	margin-bottom: 20px;
+#vienetiniai1 {
+	background-color:#e6e4bf;
 }
 
-.gallery-title1 img {
-	width: 80px;
+#vienetiniai1 .flex {
+	width: 1350px;
+	margin: 0 auto;
 }
 
-/* Create four equal columns that sits next to each other */
 .column {
-	flex: 25%;
-	max-width: 25%;
-	padding: 0 4px;
+	width: 330px;
+	margin: 0 5px;
   }
+
+.column1 {
+	margin-left: 0;
+}
+
+.column2 {
+	margin-right: 0;
+}
   
   .column img {
 	margin-top: 8px;
 	vertical-align: middle;
 	width: 100%;
-  }
-  
-  /* Responsive layout - makes a two column-layout instead of four columns */
-  @media (max-width: 800px) {
-	.column {
-	  flex: 50%;
-	  max-width: 50%;
-	}
-  }
-  
-  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-  @media (max-width: 600px) {
-	.column {
-	  flex: 100%;
-	  max-width: 100%;
-	}
+	object-fit: cover;
   }
 
+  .img-type1 img {
+	  height: 440px;
+  }
+
+  .img-type2 img {
+	  height: 247.5px;
+  }
 
   /* -------------
-GELES 
+DARKEN
 ---------------*/
-
-.darken img {
-	width: 276px;
-	height: 368px;
-}
 
 .darken {
 	position: relative;
@@ -638,13 +761,22 @@ GELES
 
 .darken p {
 	position: absolute;
-	width: 276px;
-	height: 368px;
 	top: 0px;
-	padding: 65% 0 50% 0;
 	text-align: center;
 	color: transparent;
 	margin-top: 8px;
+}
+
+.darken1 p {
+	padding: 65% 0 50% 0;
+	width: 330px;
+	height: 440px;
+}
+
+.darken2 p {
+	padding: 30% 0 30% 0;
+	width: 330px;
+	height: 247.5px;
 }
 
 .darken p:hover {
@@ -653,11 +785,35 @@ GELES
 	transition-duration: 0.2s;
 }
 
+  /* -------------
+GELES 
+---------------*/
+
+#geles1 {
+	background-color:#e6e4bf;
+}
+
+#geles1 .flex {
+	width: 1350px;
+	margin: 0 auto;
+}
+
  /* -------------
 PRIEZIURA
 ---------------*/
 
+#prieziura1 {
+	background-color: #e6e4bf;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+}
 
+#prieziura1 hr {
+	border-top: 1px solid rgba(114, 157, 57);
+	width: 70px;
+	margin-bottom: 10px;
+}
 
 .prieziura-text {
 	width: 450px;
@@ -688,18 +844,14 @@ PRIEZIURA
 	margin: 10px;
 }
 
-.prieziura-col h5 {
-	text-align: left;
-	text-transform: uppercase;
-}
-
 .prieziura-col p {
 	text-align: left;
 }
 
 i {
 	font-size: 2em;
-	color: #4CAF50;
+	color: rgba(114, 157, 57);
+	padding: 0 0 20px 0;
 }
 
 .prieziura-container {
@@ -711,42 +863,82 @@ i {
 .w3-container {
 	margin: 30px 0 20px 0;
 }
-
-hr {
-	color: black;
-}
 /* -------------
 APIE 
 ---------------*/
+
+/* 
+.apie-img-txt {
+	width: 920px;
+	height: 420px;
+	background-color: #fff;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.082), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin: 0 auto;
+}
+
+.apie-img-txt hr {
+	border-top: 1px solid rgba(114, 157, 57);
+	width: 70px;
+	margin-bottom: 10px;
+}
+
+#apie1-text {
+	width: 500px;
+	padding: 50px;
+}
+
+#apie1-img {
+	width: 400px;
+	height: 400px;
+	object-fit: cover;
+} */
 
 #content-map {
 	width: 100%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	background-color: #e6e4bf; 
 }
 
 .map {
 	margin-right: 30px;
 }
 
-#map {
-	height: 250px;
-	width: 450px;
+#map,
+#urmas {
+	width: 600px;
+	height: 324px;
+	margin: 0 10px 0 10px;
    }
 
+   .map-urmas {
+	margin-top: 30px;
+	}
 
  /* -------------
 PARDUOTUVE
 ---------------*/
 
-#urmas {
-	width: 500px;
+#parduotuve1 {
+	background-color: #fff;
 }
+
+#parduotuve1 img {
+	width: 400px;
+	height: 400px;
+	object-fit: cover;
+	margin: 0 10px 0 10px;
+}
+
 
 /* -------------
 LINKS
 ---------------*/
+
+#links {
+	padding-bottom: 70px;
+}
 
 .nuorodos {
 	display: flex;
@@ -755,14 +947,20 @@ LINKS
 }
 
 .nuoroda {
-	width: 25%;
-	margin: 0 10px;
+	width: 400px;
+	margin: 0 20px;
 	text-align: center;
 	font-size: 90%;
 }
 
+
 .aplankykite {
 	width: 18%;
+	position: relative;
+}
+
+.aplankykite a {
+	color: rgba(114, 157, 57);
 }
 
 .nuoroda h4 {
@@ -779,6 +977,16 @@ LINKS
 	color: #444;
 	display: inline-block;
 	font-size: 120%;
+}
+
+#fb {
+	position: absolute;
+	left: 0px;
+}
+
+#in {
+	position: absolute;
+	left: 52px;
 }
 
 #fb:hover {
@@ -820,7 +1028,7 @@ footer div {
 	left: 0;
 	width: 100%;
 	background-color: #111;;
-	box-shadow: 0 2px 2px rgba(17, 17, 17, 0.383);;
+	box-shadow: 0 2px 2px rgba(17, 17, 17, 0.383);
 	z-index: 999;
 	margin: 0px;
 	padding-top: 25px;
