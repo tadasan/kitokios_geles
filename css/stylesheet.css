@@ -59,6 +59,11 @@ section {
 	width: 70%;
 }
 
+.narrow {
+	width: 70%;
+	margin: 0 auto;
+}
+
 .nav button,
 .suzinoti-daugiau button {
 	text-transform: uppercase;
@@ -137,6 +142,10 @@ h4 {
 	font-weight: 500;
 }
 
+#index6 p {
+	color: #999;
+}
+
 .card a {
 	text-decoration: none;
 }
@@ -206,13 +215,13 @@ HEADER
 	background-image: url(../images/coveriss.jpg);
 	background-repeat: no-repeat;  
 	background-size: cover;
-	height: 600px;
+	height: 700px;
 	position: relative;
 }
 
 #hero-text {
 	position: absolute;
-	bottom: 3%;
+	bottom: 120px;
 	/* background-color: rgba(12, 9, 9, 0.89); */
 	width: 50%;
 	height: 210px;
@@ -262,7 +271,7 @@ INDEX1
 
 .ornament {
 	width: 40px;
-	margin: 0 10px 0 10px;
+	margin-bottom: 15px;
 }
 
 /* -------------
@@ -270,12 +279,12 @@ INDEX2
 ---------------*/
 
 #index2-pic {
-	height: 556px
+	height: 700px
 }
 
 #cards {
-	width: 500px;
-	margin: 0 9px 0 0;
+	
+
 }
 
 .card {
@@ -284,8 +293,10 @@ INDEX2
 }
 
 .card-img {
-	width: 240px;
-	padding: 10px 0;
+	height: 220px;
+	width: 307px;
+	object-fit: cover;
+	margin: 10px 0;
 }
 
 .no-border {
@@ -293,7 +304,7 @@ INDEX2
 }
 
 .card-text {
-	width: 250px;
+	width: 307px;
 }
 
 .card-text img {
@@ -321,6 +332,7 @@ INDEX3
 	background-size: cover;
 	display: flex;
 	justify-content: center;
+	margin-top: -100px;
 }
 
 #index3 .products {
@@ -334,13 +346,16 @@ INDEX3
 	margin: 0 15px;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	position: relative;
+
 }
 
 #index3 .product img {
-	width: 200px;
+	object-fit: cover;
+	width: 300px;
+	height: 300px;
 }
 
-.prices {
+/* .prices {
 	background-color: #fff;
 	width: 150px;
 	border: 1px rgba(7, 7, 7, 0.37) solid;
@@ -356,7 +371,7 @@ INDEX3
 .price {
 	color: #fff;
 	background-color: #BB2528;
-}
+} */
 
 .ziureti-daugiau {
 	margin-top: 30px;
@@ -434,8 +449,7 @@ INDEX4
   width: 40px;
   height: 70px;
   margin-left: -20px;
-  top: 88%;
-  margin-top: -35px;
+  margin-top: -20px;
   box-shadow: inset 0 0 0 1px #fff;
   border-radius: 25px;
 }
@@ -468,7 +482,7 @@ INDEX5
 ---------------*/
 
 #index5 {
-	background-image: url(../images/raudona.jpg);
+	background-image: url(../images/w.jpg);
 	background-size: cover;
 	height: 600px;
 	position: relative;
@@ -494,6 +508,63 @@ INDEX5
     color: white;
 	text-align: center;
 	width: 300px;
+}
+
+/* -------------
+INDEX6
+---------------*/
+
+#index6 {
+	background-color: #111;
+}
+
+#index6 img {
+	width: 400px;
+	height: 400px;
+	object-fit: cover;
+	margin-right: 60px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.226), 0 6px 20px 0 rgba(0, 0, 0, 0.267);
+
+}
+
+.index6-text h5 {
+	padding: 0;
+}
+
+.index6-text p {
+	width: 620px;
+}
+
+.index6-img {
+	position: relative;
+}
+
+#index6 h3 {
+	position: absolute;
+	right: 30px;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 250px;
+	background-color: rgba(114, 157, 57, 0.77);
+	padding: 25px;
+}
+
+#index6 i {
+display: block;
+font-size: 1.5em;
+}
+
+.index6-text .flex-row {
+	align-items: flex-start;
+	margin: 20px 0 0 0;
+}
+
+.budas p {
+	width: 300px;
+}
+
+.budas2 {
+	margin-left: 30px;
 }
 
 /* -------------
@@ -1030,14 +1101,42 @@ footer div {
 
 
 
+.next {
+	width:50px;
+	height: 50px;
+	background-color: rgb(32, 31, 31);
+	position: relative;
+}
 
+.next i {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	padding: 0;
+	color: rgba(255, 255, 255, 0.767);
+}
 
-a.lightbox img {
-	height: 150px;
-	border: 3px solid white;
-	box-shadow: 0px 0px 8px rgba(0,0,0,.3);
-	margin: 94px 20px 20px 20px;
-	}
+.previous {
+	width:50px;
+	height: 50px;
+	background-color: rgb(32, 31, 31);
+	position: relative;
+}
+
+.previous i {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	padding: 0;
+	color: rgba(255, 255, 255, 0.767);
+}
+
+.largen {
+	height: 100vh;
+	width: auto;
+}
 	
 	/* Styles the lightbox, removes it from sight and adds the fade-in transition */
 	
@@ -1053,22 +1152,16 @@ a.lightbox img {
 	-o-transition: opacity .5s ease-in-out;
 	transition: opacity .5s ease-in-out;
 	overflow: hidden;
+	z-index: 1;
 	}
 	
 	/* Styles the lightbox image, centers it vertically and horizontally, adds the zoom-in transition and makes it responsive using a combination of margin and absolute positioning */
 	
 	.lightbox-target img {
-	margin: auto;
-	position: absolute;
-	top: 0;
-	left:0;
-	right:0;
-	bottom: 0;
-	max-height: 0%;
-	max-width: 0%;
-	border: 3px solid white;
+	margin: 0;
+	width: 35%;
+	height: auto;
 	box-shadow: 0px 0px 8px rgba(0,0,0,.3);
-	box-sizing: border-box;
 	-webkit-transition: .5s ease-in-out;
 	-moz-transition: .5s ease-in-out;
 	-o-transition: .5s ease-in-out;
@@ -1082,9 +1175,7 @@ a.lightbox img {
 	width:50px;
 	height:50px;
 	box-sizing: border-box;
-	background: white;
-	color: black;
-	text-decoration: none;
+	background-color: rgba(255, 255, 255, 0.89);
 	position: absolute;
 	top: -80px;
 	right: 0;
@@ -1093,39 +1184,14 @@ a.lightbox img {
 	-o-transition: .5s ease-in-out;
 	transition: .5s ease-in-out;
 	}
-	
-	/* Provides part of the "X" to eliminate an image from the close link */
-	
-	a.lightbox-close:before {
-	content: "";
-	display: block;
-	height: 30px;
-	width: 1px;
-	background: black;
-	position: absolute;
-	left: 26px;
-	top:10px;
-	-webkit-transform:rotate(45deg);
-	-moz-transform:rotate(45deg);
-	-o-transform:rotate(45deg);
-	transform:rotate(45deg);
-	}
-	
-	/* Provides part of the "X" to eliminate an image from the close link */
-	
-	a.lightbox-close:after {
-	content: "";
-	display: block;
-	height: 30px;
-	width: 1px;
-	background: black;
-	position: absolute;
-	left: 26px;
-	top:10px;
-	-webkit-transform:rotate(-45deg);
-	-moz-transform:rotate(-45deg);
-	-o-transform:rotate(-45deg);
-	transform:rotate(-45deg);
+
+	a.lightbox-close i {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		padding: 0;
+		color: rgb(32, 31, 31);
 	}
 	
 	/* Uses the :target pseudo-class to perform the animations upon clicking the .lightbox-target anchor */

@@ -59,6 +59,21 @@
 .fa-seedling:before {
   content: "\f4d8"; }
 
+.fa-times:before {
+  content: "\f00d"; }
+
+.fa-chevron-right:before {
+  content: "\f054"; }
+
+.fa-chevron-left:before {
+  content: "\f053"; }
+
+.fa-comments:before {
+  content: "\f075"; }
+
+.fa-store:before {
+    content: "\f54e"; }
+
 .fa.fa-pull-left,
 .fas.fa-pull-left,
 .far.fa-pull-left,
