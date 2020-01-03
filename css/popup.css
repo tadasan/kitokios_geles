@@ -65,6 +65,6 @@
 
 .w3-color, .w3-hover-green:hover {
     color: #fff;
-    background-color: #729d39;
+    background-color: rgb(102, 125, 70);
     transition-duration: 0.4s;
 }

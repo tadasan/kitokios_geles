@@ -23,6 +23,10 @@ body {
 	font-family: 'Raleway', sans-serif;
 }
 
+button {
+	outline: none;
+  }
+
 .flex-column {
 	display: flex;
 	align-items: center;
@@ -131,7 +135,7 @@ p {
 h5,
 h4 {
 	padding-bottom: 10px;
-	color: rgba(114, 157, 57);
+	color: rgb(102, 125, 70);
 	text-align: left;
 	text-transform: uppercase;
 	Font-Family: 'Poppins', Sans-Serif;
@@ -199,7 +203,7 @@ HEADER
 }
 
 .nav button:hover {
-	background-color: #444;
+	color: rgb(102, 125, 70);
 	transition-duration: 0.2s;
 }
 
@@ -399,8 +403,8 @@ INDEX3
 }
 
 .ziureti-daugiau button:hover {
-	color: rgba(114, 157, 57);
-	border: 1px rgba(114, 157, 57) solid;
+	color: #667d46;
+	border: 1px #667d46 solid;
 	transition-duration: 0.2s;
 }
 
@@ -431,7 +435,7 @@ INDEX4
 }
 
 .green {
-	background: linear-gradient(to right, rgba(114, 157, 57, 0.77) 0%, rgba(114, 157, 57, 0.76) 16%, rgba(114, 157, 57, 0.93) 72%, rgba(114, 157, 57, 0.95) 100%);
+	background: linear-gradient(to right, rgba(102, 125, 70, 0.77) 0%, rgba(102, 125, 70, 0.76) 16%, rgba(1102, 125, 70, 0.93) 72%, rgba(102, 125, 70, 0.95) 100%);
 	padding-left:40px;
 	transform: translateX(-50px;);
 }
@@ -439,7 +443,7 @@ INDEX4
 .grey {
 	padding: 50px;
 	width: 670px;
-	background-color: #e6e4bf;
+	background-color: #e0ddd7;
 }
 
 .grey h2 {
@@ -552,7 +556,7 @@ INDEX6
 	top: 50%;
 	transform: translateY(-50%);
 	width: 250px;
-	background-color: rgba(114, 157, 57, 0.77);
+	background-color: rgba(102, 125, 70, 0.77);
 	padding: 25px;
 }
 
@@ -625,7 +629,7 @@ SVENTEMS2,3,4,5
 #sventems2,
 #sventems4,
 #sventems6 {
-	background-color: #e6e4bf;
+	background-color: #e0ddd7;
 }
 
 .element {
@@ -692,12 +696,12 @@ SVENTEMS2,3,4,5
 }
 
 .element4 hr {
-	border-top: 1px solid #c6e377;
+	border-top: 1px solid #84a15c;
 	width: 50px;
 }
 
 .element2 hr {
-	border-top: 1px solid #c6e377;
+	border-top: 1px solid #84a15c;
 	width: 90%;
 	margin: 0 auto;
 }
@@ -787,7 +791,7 @@ VIENETINIAI
 ---------------*/
 
 #vienetiniai1 {
-	background-color:#e6e4bf;
+	background-color:#e0ddd7;
 }
 
 #vienetiniai1 .flex {
@@ -870,7 +874,7 @@ GELES
 ---------------*/
 
 #geles1 {
-	background-color:#e6e4bf;
+	background-color:#e0ddd7;
 }
 
 #geles1 .flex {
@@ -883,14 +887,14 @@ PRIEZIURA
 ---------------*/
 
 #prieziura1 {
-	background-color: #e6e4bf;
+	background-color: #e0ddd7;
 	background-size: cover;
 	display: flex;
 	justify-content: center;
 }
 
 #prieziura1 hr, #index4 hr, .index6-text hr {
-	border-top: 1px solid rgba(114, 157, 57);
+	border-top: 1px solid #667d46;
 	
 	width: 70px;
 	margin-bottom: 10px;
@@ -937,7 +941,7 @@ border-right: 1px solid #444;
 
 i {
 	font-size: 2em;
-	color: rgba(114, 157, 57);
+	color: #667d46;
 	padding: 0 0 20px 0;
 }
 
@@ -964,7 +968,7 @@ APIE
 }
 
 .apie-img-txt hr {
-	border-top: 1px solid rgba(114, 157, 57);
+	border-top: 1px solid #667d46;
 	width: 70px;
 	margin-bottom: 10px;
 }
@@ -985,7 +989,7 @@ APIE
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background-color: #e6e4bf; 
+	background-color: #e0ddd7; 
 }
 
 .map {
@@ -997,6 +1001,7 @@ APIE
 	width: 600px;
 	height: 324px;
 	margin: 0 10px 0 10px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
    }
 
    .map-urmas {
@@ -1047,7 +1052,7 @@ LINKS
 }
 
 .aplankykite a {
-	color: rgba(114, 157, 57);
+	color: #667d46;
 }
 
 .nuoroda h4 {
