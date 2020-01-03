@@ -11,6 +11,7 @@ MAIN INFO
 }
 
 html {
+	zoom: 0.9;
 	background-color: #fff;
 	color: #444;
 	font-weight: 500;
@@ -282,13 +283,15 @@ INDEX1
 INDEX2
 ---------------*/
 
-.index2-img img {
-	height: 700px
+.index2-img {
+	height: 700px;
+	width: 525px;
 }
 
-#cards {
-	
-
+.index2-img img {
+	height: 700px;
+	width: 525px;
+	object-fit: cover;
 }
 
 .card {
@@ -309,6 +312,12 @@ INDEX2
 
 .card-text {
 	width: 307px;
+}
+
+.card-text p {
+	padding: 0 20px;
+	height: 40px;
+	overflow: hidden;
 }
 
 .card-text img {
@@ -332,15 +341,14 @@ INDEX3
 ---------------*/
 
 #index3 {
-	background-color: #eeeeee;
+	background-color: #e0ddd7;
 	background-size: cover;
 	display: flex;
 	justify-content: center;
 }
 
 #index3 .products {
-	width: 1040px;
-	padding: 30px 0 10px 0;
+	padding: 50px 0 10px 0;
 }
 
 #index3 .product {
@@ -351,10 +359,6 @@ INDEX3
 	position: relative;
 	width:330px;
 	height: 330px;
-}
-
-#index3 .flex-row {
-	align-items: flex-start;
 }
 
 /* #index3 .product:hover {
@@ -416,14 +420,14 @@ INDEX4
 
 }
 
-#index4-img,
-#parduotuve1-img {
+#index4 img {
 	width: 400px;
-	margin: 0 50px;
+	height: 400px;
+	object-fit: cover;
+	margin: 0 50px 0 0;
 }
 
-#index4-text,
-#parduotuve1-text {
+#index4-text {
 	width: 400px;
 }
 
@@ -437,7 +441,7 @@ INDEX4
 .green {
 	background: linear-gradient(to right, rgba(102, 125, 70, 0.77) 0%, rgba(102, 125, 70, 0.76) 16%, rgba(1102, 125, 70, 0.93) 72%, rgba(102, 125, 70, 0.95) 100%);
 	padding-left:40px;
-	transform: translateX(-50px;);
+	transform: translateX(-50px);
 }
 
 .grey {
@@ -519,6 +523,8 @@ INDEX5
     color: white;
 	text-align: center;
 	width: 300px;
+	height: 200px;
+	overflow: hidden;
 }
 
 /* -------------
@@ -535,7 +541,6 @@ INDEX6
 	object-fit: cover;
 	margin-right: 60px;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.226), 0 6px 20px 0 rgba(0, 0, 0, 0.267);
-
 }
 
 .index6-text h4 {
@@ -578,6 +583,10 @@ font-size: 1.5em;
 	margin-left: 30px;
 }
 
+.index6-text3 {
+	display:none;
+}
+
 /* -------------
 SVENTEMS1
 ---------------*/
@@ -586,14 +595,14 @@ SVENTEMS1
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	position: relative;
 	margin: 0 10px;
-	height: 133.6px;
+	height: 133px;
 	width: 200px;
 }
 
 #sventems1 img {
 	object-fit: cover;
 	width: 200px;
-	height: 133.6px;
+	height: 133px;
 }
 
 .category {
@@ -612,7 +621,7 @@ SVENTEMS1
 
 #sventems1 .product p {
 	width: 200px;
-	height: 133.6px;
+	height: 133px;
 	font-size: 14px;
 	font-weight: 600;
 }
@@ -794,11 +803,6 @@ VIENETINIAI
 	background-color:#e0ddd7;
 }
 
-#vienetiniai1 .flex {
-	width: 1350px;
-	margin: 0 auto;
-}
-
 .column {
 	width: 330px;
 	margin: 0 5px;
@@ -817,6 +821,7 @@ VIENETINIAI
 	vertical-align: middle;
 	width: 100%;
 	object-fit: cover;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.226), 0 6px 20px 0 rgba(0, 0, 0, 0.267);
   }
 
   .img-type1 img {
@@ -877,11 +882,6 @@ GELES
 	background-color:#e0ddd7;
 }
 
-#geles1 .flex {
-	width: 1350px;
-	margin: 0 auto;
-}
-
  /* -------------
 PRIEZIURA
 ---------------*/
@@ -895,7 +895,6 @@ PRIEZIURA
 
 #prieziura1 hr, #index4 hr, .index6-text hr {
 	border-top: 1px solid #667d46;
-	
 	width: 70px;
 	margin-bottom: 10px;
 }
@@ -907,14 +906,15 @@ border-right: 1px solid #444;
 }
 
 .prieziura-text {
-	width: 450px;
-	padding: 15px;
-	margin: 20px;
+	width: 430px;
 }
 
 .prieziura-container img {
 	width: 450px;
-	margin: 30px;
+	height: 337px;
+	object-fit: cover;
+	margin: 30px 40px 30px 0;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.226), 0 6px 20px 0 rgba(0, 0, 0, 0.267);
 }
 
 .flex-start {
@@ -1004,6 +1004,11 @@ APIE
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
    }
 
+#urmas img {
+	width: 600px;
+	height: 324px;
+}
+
    .map-urmas {
 	margin-top: 30px;
 	}
@@ -1021,6 +1026,7 @@ PARDUOTUVE
 	height: 400px;
 	object-fit: cover;
 	margin: 0 10px 0 10px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.226), 0 6px 20px 0 rgba(0, 0, 0, 0.267);
 }
 
 

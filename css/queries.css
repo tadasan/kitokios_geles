@@ -1,0 +1,408 @@
+/* Big tablets to computer (width smaller that the 1140px row): from 1024px to 1200px */
+
+@media only screen and (max-width: 1200px) {
+
+.nuoroda {
+	margin: 0 13px;
+}
+
+.aplankykite {
+	width: 30%;
+}
+
+/* index */
+
+#index3 .product {
+	margin: 0 10px;
+	width:310px;
+	height: 310px;
+}
+
+#index3 .product img {
+	width: 300px;
+	height: 300px;
+}
+
+.index2-img {
+    height: 580px;
+        width: 435px;
+}
+
+    .index2-img img {
+        height: 580px;
+        width: 435px;
+        object-fit: cover;
+    }
+
+    .card-text p {
+        padding: 0 15px;
+        height: 60px;
+    }
+
+    .card-img {
+        height: 180px;
+        width: 252px;
+        object-fit: cover;
+        margin: 10px 0;
+    }
+
+    .card-text {
+        width: 252px;
+    }
+
+    #index6 img {
+        width: 330px;
+        height: 330px;
+        margin-right: 50px;
+    }
+    
+    .index6-text p {
+        width: 580px;
+    }
+
+    .budas p {
+        width: 280px;
+    }
+
+    #index6 h3 {
+        font-size: 100%;
+        width: 220px;
+        padding: 20px;
+        right: 25px;
+    }
+
+    /* sventems */
+
+    #sventems1 img {
+        object-fit: cover;
+        width: 180px;
+        height: 120px;
+    }
+
+    #sventems1 .product,
+    #sventems1 .product p {
+        width: 180px;
+        height: 120px;
+        
+    }
+
+    #sventems1 .product {
+        margin: 0 7px;
+    }
+
+    .element1 {
+        width: 486px;
+        height: 360px;
+        position: relative;
+    }
+    
+    .element1 img  {
+        object-fit: cover;
+        width: 486px;
+        height: 360px;
+    }
+    
+    .element2,
+    .element3,
+    .element4 {
+        width: 236px;
+        height: 360px;
+        background-color: #fff;
+    }
+    
+    .element3 img {
+        object-fit: cover;
+        width: 236px;
+        height: 360px;
+    }
+    
+    .element2 img {
+        object-fit: cover;
+        width: 236px;
+        height: 177px;
+    }
+    
+    .element4 img {
+        object-fit: cover;
+        width: 90px;
+        height: 90px;
+        border: 0px solid transparent;
+        border-radius: 200px;
+    }
+    
+    .element4-text {
+        width: 236px;
+        height: 203px;
+    }
+    
+    .element2-text1 {
+        width: 236px;
+        height: 135px;
+    }
+    
+    .element2-text2 {
+        width: 236px;
+        height: 43px;
+    }
+
+    .element1 h3 {
+        font-size: 160%;
+    }
+
+    /* vienetiniai */   /* geles */
+
+    .column {
+        width: 240px;
+        margin: 0 5px;
+      }
+
+    .img-type1 img {
+    height: 320px;
+  }
+
+    .img-type2 img {
+	height: 180px;
+  }
+
+  /* prieziura */
+
+  .isskleistas {
+	width: 1000px;
+	border-top: 1px solid rgba(75, 75, 75, 0.185);
+}
+
+.prieziura-container img {
+	width: 430px;
+    height: 322.5;
+}
+
+/* parduotuve */
+
+#parduotuve1 img {
+	width: 310px;
+    height: 310px;
+}
+
+ /* darken */
+
+.darken p {
+	position: absolute;
+	top: 0px;
+	text-align: center;
+	color: transparent;
+	margin-top: 8px;
+}
+
+.darken1 p {
+	padding: 65% 0 50% 0;
+	width: 240px;
+	height: 320px;
+}
+
+.darken2 p {
+	padding: 30% 0 30% 0;
+	width: 240px;
+	height: 180px;
+}
+
+.darken3 p {
+	padding-top: 40%;
+	width: 300px;
+	height: 300px;
+	margin: 5px;
+	left:0;
+}
+
+/* map */  /* urmas */
+
+#map,
+#urmas {
+	width: 470px;
+	height: 254px;
+}
+
+#urmas img {
+    width: 470px;
+	height: 254px;
+}
+
+}
+
+
+/* Small tablets to big tablets: from 768px to 1023px */
+
+@media only screen and (max-width: 1023px) {
+
+.nav {
+    height: 50px;
+}
+
+.nav button {
+	height: 50px;
+	width: 120px;
+	background-color: transparent;
+	border: none;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 13px; 
+}
+
+.ornament {
+    margin-bottom: 10px;
+}
+
+section {
+    padding: 40px 0;
+}
+
+.nuoroda {
+	width: 260px;
+}
+
+.aplankykite {
+	width: 30%;
+}
+
+/* index */
+
+#index3 .products {
+    padding-top: 40px;
+}
+
+#index3 .product {
+	object-fit: cover;
+	width: 255px;
+    height: 255px;
+    margin: 0 7px;
+}
+
+#index3 .product img {
+	object-fit: cover;
+	width: 245px;
+	height: 245px;
+}
+
+.index2-img {
+    height: 500px;
+    width: 375px;
+}
+
+.index2-img img {
+    height: 500px;
+    width: 375px;
+    object-fit: cover;
+}
+
+.card-img {
+    height: 153px;
+    width: 214px;
+    object-fit: cover;
+    margin: 10px 0;
+}
+
+.card-text {
+    width: 214px;
+}
+
+.card-text p {
+    padding: 0 10px;
+    height: 60px;
+}
+
+.card-text img {
+	width: 25px;
+}
+
+.index6-text .flex-row {
+    flex-direction: column;
+}
+
+.budas2 {
+    margin-left: 0;
+}
+
+.budas p {
+    width: 370px;
+}
+
+.index6-text2 {
+    display: none;
+}
+
+.index6-text3 {
+    display: flex;
+    width: 790px;
+}
+
+#index4 img {
+	width: 300px;
+	height: 300px;
+}
+
+#index5 {
+    height: 500px;
+}
+
+#circle {
+    width: 360px;
+    height: 360px;
+}
+
+#circle p {
+    width: 260px;
+    height: 200px;
+    vertical-align: center;
+}
+
+ /* darken */
+
+ .darken p {
+	position: absolute;
+	top: 0px;
+	text-align: center;
+	color: transparent;
+	margin-top: 8px;
+}
+
+.darken1 p {
+	padding: 65% 0 50% 0;
+	width: 260px;
+	height: 346.7px;
+}
+
+.darken2 p {
+	padding: 30% 0 30% 0;
+	width: 260px;
+	height: 195px;
+}
+
+.darken3 p {
+	padding-top: 40%;
+	width: 245px;
+	height: 245px;
+	margin: 5px;
+	left:0;
+}
+
+}
+
+
+/* Small phones to small tablets: from 481px to 767px */
+
+@media only screen and (max-width: 767px) {
+
+
+}
+
+
+/* Small phones: from 0 to 480px */
+
+@media only screen and (max-width: 480px) {
+
+
+}
