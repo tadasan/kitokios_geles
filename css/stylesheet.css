@@ -51,13 +51,13 @@ section {
     padding: 50px 0;
 }
 
-.title {
+/* .title {
 	margin-bottom: 15px;
 }
 
 .title-text {
 	width: 70%;
-}
+} */
 
 .narrow {
 	width: 70%;
@@ -152,7 +152,6 @@ h4 {
 
 #index3 .product p {
 	text-align: center;
-	padding: 8px 0;
 	font-size: 13px;
 }
 
@@ -265,20 +264,21 @@ HEADER
 INDEX1
 ---------------*/
 
-#index1 {
+/* #index1 {
 	padding-bottom: 0px;
 }
+*/
 
 .ornament {
 	width: 40px;
 	margin-bottom: 15px;
-}
+} 
 
 /* -------------
 INDEX2
 ---------------*/
 
-#index2-pic {
+.index2-img img {
 	height: 700px
 }
 
@@ -332,12 +332,11 @@ INDEX3
 	background-size: cover;
 	display: flex;
 	justify-content: center;
-	margin-top: -100px;
 }
 
 #index3 .products {
 	width: 1040px;
-	padding: 10px 0;
+	padding: 30px 0 10px 0;
 }
 
 #index3 .product {
@@ -346,13 +345,23 @@ INDEX3
 	margin: 0 15px;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	position: relative;
-
+	width:330px;
+	height: 330px;
 }
+
+#index3 .flex-row {
+	align-items: flex-start;
+}
+
+/* #index3 .product:hover {
+	height: 370px;
+	transition-duration: 0.3s;
+} */
 
 #index3 .product img {
 	object-fit: cover;
-	width: 300px;
-	height: 300px;
+	width: 320px;
+	height: 320px;
 }
 
 /* .prices {
@@ -390,11 +399,9 @@ INDEX3
 }
 
 .ziureti-daugiau button:hover {
-	color: #BB2528;
-	border: 1px #80141773 solid;
+	color: rgba(114, 157, 57);
+	border: 1px rgba(114, 157, 57) solid;
 	transition-duration: 0.2s;
-	#fae16c
-	rgb(183, 66, 50)
 }
 
 /* -------------
@@ -574,8 +581,9 @@ SVENTEMS1
 #sventems1 .product {
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	position: relative;
-	height: 133.6px;
 	margin: 0 10px;
+	height: 133.6px;
+	width: 200px;
 }
 
 #sventems1 img {
@@ -843,6 +851,14 @@ DARKEN
 	height: 247.5px;
 }
 
+.darken3 p {
+	padding-top: 40%;
+	width: 320px;
+	height: 320px;
+	margin: 5px;
+	left:0;
+}
+
 .darken p:hover {
 	color: #fff;
 	background-color: rgba(17, 17, 17, 0.63);
@@ -873,7 +889,7 @@ PRIEZIURA
 	justify-content: center;
 }
 
-#prieziura1 hr {
+#prieziura1 hr, #index4 hr {
 	border-top: 1px solid rgba(114, 157, 57);
 	width: 70px;
 	margin-bottom: 10px;
