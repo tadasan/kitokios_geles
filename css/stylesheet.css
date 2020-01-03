@@ -534,12 +534,12 @@ INDEX6
 
 }
 
-.index6-text h5 {
+.index6-text h4 {
 	padding: 0;
 }
 
 .index6-text p {
-	width: 620px;
+	width: 700px;
 }
 
 .index6-img {
@@ -567,7 +567,7 @@ font-size: 1.5em;
 }
 
 .budas p {
-	width: 300px;
+	width: 340px;
 }
 
 .budas2 {
@@ -889,10 +889,17 @@ PRIEZIURA
 	justify-content: center;
 }
 
-#prieziura1 hr, #index4 hr {
+#prieziura1 hr, #index4 hr, .index6-text hr {
 	border-top: 1px solid rgba(114, 157, 57);
+	
 	width: 70px;
 	margin-bottom: 10px;
+}
+
+.index6-text hr {
+border-bottom: 1px solid #444;
+border-left: 1px solid #444;
+border-right: 1px solid #444;
 }
 
 .prieziura-text {
