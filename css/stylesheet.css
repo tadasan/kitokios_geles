@@ -191,6 +191,10 @@ HEADER
 	margin-top: 10px;
 }
 
+#navbar {
+	display: block;
+}
+
 .nav {
 	background-color: #111;
 	height: 60px;
@@ -214,7 +218,32 @@ HEADER
 	color: #eee;
 }
 
+.menu button {
+	padding: 0;
+	visibility: visible;
+	position: absolute;
+	right: 0;
+	background-color: transparent;
+	border:0;
+	right: 30px;
+}
 
+.fa-bars {
+	padding: 0;
+	visibility: visible;
+	font-size: 26px;
+	padding: 12px 0;
+	color: #eee;
+}
+
+.menu {
+	display: block;
+	width: 100%;
+	position: relative;
+	height: 50px;
+	background-color: #111;
+	margin-top:20px;
+}
 
 
 .cover {
@@ -441,13 +470,11 @@ INDEX4
 	background-image: url(../images/coverisss.jpg);
 	background-size: cover;
 	width: 100%;
-	margin: 0 auto;
 }
 
 .green {
 	background: linear-gradient(to right, rgba(102, 125, 70, 0.77) 0%, rgba(102, 125, 70, 0.76) 16%, rgba(1102, 125, 70, 0.93) 72%, rgba(102, 125, 70, 0.95) 100%);
 	padding-left:40px;
-	transform: translateX(-50px);
 }
 
 .grey {
@@ -852,7 +879,7 @@ DARKEN
 ---------------*/
 
 .darken {
-    position: absolute;
+    position: relative;
 	background-color: transparent;
     display: flex;
     justify-content: center;
@@ -901,6 +928,11 @@ GELES
 
 #geles1 {
 	background-color:#e0ddd7;
+	flex-wrap: wrap;
+}
+
+#geles1 .flex-row{
+	flex-wrap: wrap;
 }
 
  /* -------------

@@ -537,36 +537,9 @@ footer div {
         margin-top: 0;
     }
 
-    .menu button {
-        padding: 0;
-        visibility: visible;
-        position: absolute;
-        right: 0;
-        background-color: transparent;
-        border:0;
-        right: 30px;
-    }
-
-    .fa-bars {
-        padding: 0;
-        visibility: visible;
-        font-size: 26px;
-        padding: 12px 0;
-        color: #eee;
-    }
-
-    .menu {
-        display: block;
-        width: 100%;
-        position: relative;
-        height: 50px;
-        background-color: #111;
-        margin-top:20px;
-    }
-
     .grey {
-        padding: 30px;
-        width: 500px;
+        padding: 25px;
+        width: 440px;
     }
 
     .nuorodos {
@@ -640,7 +613,6 @@ footer div {
 
     .card-text {
         width: 230px;
-        height:
     }
 
     .index6-wrap {
@@ -766,18 +738,57 @@ footer div {
         font-size: 160%;
     }
 
+    /* vienetiniai */   /* geles */
+
+    .column {
+        width: 240px;
+        margin: 0 5px;
+      }
+
+    .img-type1 {
+    height: 380px;
+  }
+
+    .img-type2 {
+	height: 240px;
+  }
+
+  .img-type1 img {
+    height: 320px;
+  }
+
+    .img-type2 img {
+	height: 180px;
+  }
+
+  #geles1,
+  #vienetiniai1 {
+      flex-wrap: wrap;
+  }
+
 
      /* darken */
 
-.darken1 {
-	width: 200px;
-	height: 267px;
-}
+     .darken1 {
+        width: 240px;
+        height: 60px;
+        background-color: #fff;
+        position: absolute;
+        top: 320px;
+    }
 
-.darken2 {
-	width: 260px;
-	height: 150px;
-}
+    .darken1:hover {
+        height: 70px;
+    }
+    
+    .darken2,
+    .darken2:hover {
+        width: 240px;
+        height: 60px;
+        background-color: #fff;
+        position: absolute;
+        top: 180px;
+    }
 
 .darken3,
 .darken3:hover {
