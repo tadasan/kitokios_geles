@@ -72,7 +72,10 @@
   content: "\f075"; }
 
 .fa-store:before {
-    content: "\f54e"; }
+  content: "\f54e"; }
+
+.fa-bars:before {
+  content: "\f0c9"; }
 
 .fa.fa-pull-left,
 .fas.fa-pull-left,

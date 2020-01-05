@@ -15,14 +15,15 @@
         <header>
             <div id="header" class="flex-column">
                 <img src="images/logo.png" alt="logotipas" id="logo">
-                <div id="navbar" class="nav row flex-row">
+                <div class="menu"><button onclick="mobileNav()"><i class="fas fa-bars"></i></button>
+                </div><div id="navbar" class="nav row flex-row">
                     <a href="index.html"><button>pradžia</button></a>
                     <a href="sventems.html"><button>šventėms</button></a>
                     <a href="vienetiniai.html"><button>vienetiniai</button></a>
                     <a href="geles.html"><button>gėlės</button></a>
                     <a href="prieziura.html"><button>gėlių priežiūra</button></a>
                     <a href="apie.html"><button>apie mus</button></a>
-                    <a href="parduotuve.html"><button>parduotuvė</button></a>
+                    <a class="a-last" href="parduotuve.html"><button>parduotuvė</button></a>
                 </div>
                 <div id="slides" class="row flex-column">
                     <div id="hero-text">
@@ -38,9 +39,11 @@
          <section id="index3" class="flex-column jsnav">
              <h2>Kitokios gėlės</h2>
             <div class="products flex-row">
-                <div class="product darken darken3">
+                <div class="product">
                     <img src="images/q.jpg" alt="">
+                    <div class="darken darken3">
                     <p>trumpas gėlės aprašymas<br><br>kaina</p>
+                </div>
                     <!-- <div class="prices">
                         <div class="price-text">
                             <p>Trumpas gėlės<br>
@@ -52,14 +55,16 @@
                         </div>
                     </div> -->
                 </div>
-                <div class="product darken darken3">
+                <div class="product">
                     <img src="images/gimtadienis4.jpg" alt="">
-                    <p>trumpas gėlės aprašymas<br><br>kaina</p>
-                </div>
-                <div class="product darken darken3">
+                    <div class="darken darken3">
+                    <p>trumpas gėlės aprašymas kgkgkhkkl l lkkk llk l kllllk l kl k h hg hg f gf  ggggggfgfgf gfgygyg ugftff<br><br>kaina</p>
+                </div></div>
+                <div class="product">
                     <img src="images/vestuves.jpg" alt="">
-                    <p>trumpas gėlės aprašymas<br><br>kaina</p>
-                </div>
+                    <div class="darken darken3">
+                    <p>trumpas gėlės aprašymas kgkghh h hh hhhhhhh hh hh hh h hhh hhhh hhhhhhhhhhh hhhhhhhhh hhhhhhhh khkkl l lkkk llk l kllllk l kl k h hg hg f gf  ggggggfgfgf gfgygyg ugftff<br><br>kaina</p>
+                </div></div>
             </div>
             <a href="geles.html" class="ziureti-daugiau"><button>Žiūrėti daugiau</button></a>
         </section>
@@ -75,7 +80,7 @@
                     <div class="card-text flex-column">
                         <img src="images/orn1.png" alt="ornamentas" class="ornament">
                         <h5>Kasdienės gėlės</h5>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <p>basl ll llsl ls llsalsl  l ll l lLorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     </div>
                 </div>
             </a>
@@ -104,7 +109,7 @@
 
         <section id="index6">
             <div class="narrow flex-column">
-                <div class="flex-row">
+                <div class="flex-row index6-wrap">
                 <div class="index6-img">
             <img src="./images/kompozicija.jpg" alt="">
             <h3>Norite unikalios kompozicijos?</h3>
@@ -140,11 +145,9 @@
 
         <section id="index4" class="flex-row">
             <img src="images/picturee.jpg" alt="#">
-            <div id="index4-text">
-                <div>
+            <div class="index4-text">
                     <h4>Pavadinimas</h4>
                     <hr>
-                </div>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quasi ego id curem, quid ille aiat aut neget. Quam illa ardentis amores excitaret sui! Cur tandem? Nisi enim id faceret, cur Plato Aegyptum peragravit, ut a sacerdotibus barbaris numeros et caelestia acciperet? Id et fieri posse et saepe esse factum et ad voluptates percipiendas maxime pertinere.
                 </p>
             </div>
@@ -163,12 +166,12 @@
 			<div class="nuorodos">
 				<div class="nuoroda">
 					<h4>Apie mus</h4>
-					<p class="apie">
+					<p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quasi ego id curem, quid ille aiat aut neget. Quam illa ardentis amores excitaret sui! Cur tandem? Nisi enim id faceret, cur Plato Aegyptum peragravit, ut a sacerdotibus barbaris numeros et caelestia acciperet? Id et fieri posse et saepe esse factum et ad voluptates percipiendas maxime pertinere.</p>
 				</div>
 				<div class="nuoroda">
 					<h4>Susisiekite</h4>
-                    <p class="apie">Gėlių interjero namai "Kitokios gėlės"<br>
+                    <p>Gėlių interjero namai "Kitokios gėlės"<br>
                         UAB "Geroli"<br>
                         Įm. k. 302453148<br>
                         PVM  LT100009957215<br>
@@ -183,7 +186,7 @@
 				</div>
 				<div class="nuoroda aplankykite">
                     <h4>Aplankykite mus</h4>
-                    <p class="apie">
+                    <p>
                     Adresas: Pramonės 16a, Kaunas, Vakarinė galerija, 4-a salė, 1-a vieta <br>
                     <a href="parduotuve.html#content-map">Rodyti žemėlapį</a><br><br>
                         

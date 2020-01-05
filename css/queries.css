@@ -31,7 +31,6 @@
     .index2-img img {
         height: 580px;
         width: 435px;
-        object-fit: cover;
     }
 
     .card-text p {
@@ -42,7 +41,6 @@
     .card-img {
         height: 180px;
         width: 252px;
-        object-fit: cover;
         margin: 10px 0;
     }
 
@@ -74,7 +72,6 @@
     /* sventems */
 
     #sventems1 img {
-        object-fit: cover;
         width: 180px;
         height: 120px;
     }
@@ -93,11 +90,9 @@
     .element1 {
         width: 486px;
         height: 360px;
-        position: relative;
     }
     
     .element1 img  {
-        object-fit: cover;
         width: 486px;
         height: 360px;
     }
@@ -107,27 +102,21 @@
     .element4 {
         width: 236px;
         height: 360px;
-        background-color: #fff;
     }
     
     .element3 img {
-        object-fit: cover;
         width: 236px;
         height: 360px;
     }
     
     .element2 img {
-        object-fit: cover;
         width: 236px;
         height: 177px;
     }
     
     .element4 img {
-        object-fit: cover;
         width: 90px;
         height: 90px;
-        border: 0px solid transparent;
-        border-radius: 200px;
     }
     
     .element4-text {
@@ -168,7 +157,6 @@
 
   .isskleistas {
 	width: 1000px;
-	border-top: 1px solid rgba(75, 75, 75, 0.185);
 }
 
 .prieziura-container img {
@@ -185,32 +173,19 @@
 
  /* darken */
 
-.darken p {
-	position: absolute;
-	top: 0px;
-	text-align: center;
-	color: transparent;
-	margin-top: 8px;
-}
-
-.darken1 p {
-	padding: 65% 0 50% 0;
+.darken1 {
 	width: 240px;
 	height: 320px;
 }
 
-.darken2 p {
-	padding: 30% 0 30% 0;
+.darken2 {
 	width: 240px;
 	height: 180px;
 }
 
-.darken3 p {
-	padding-top: 40%;
+.darken3 {
 	width: 300px;
 	height: 300px;
-	margin: 5px;
-	left:0;
 }
 
 /* map */  /* urmas */
@@ -229,6 +204,8 @@
 }
 
 
+
+
 /* Small tablets to big tablets: from 768px to 1023px */
 
 @media only screen and (max-width: 1023px) {
@@ -240,8 +217,6 @@
 .nav button {
 	height: 50px;
 	width: 120px;
-	background-color: transparent;
-	border: none;
 }
 
 h2 {
@@ -268,6 +243,10 @@ section {
 	width: 30%;
 }
 
+footer div {
+    padding: 25px;
+}
+
 /* index */
 
 #index3 .products {
@@ -275,14 +254,12 @@ section {
 }
 
 #index3 .product {
-	object-fit: cover;
 	width: 255px;
     height: 255px;
     margin: 0 7px;
 }
 
 #index3 .product img {
-	object-fit: cover;
 	width: 245px;
 	height: 245px;
 }
@@ -295,13 +272,11 @@ section {
 .index2-img img {
     height: 500px;
     width: 375px;
-    object-fit: cover;
 }
 
 .card-img {
     height: 153px;
     width: 214px;
-    object-fit: cover;
     margin: 10px 0;
 }
 
@@ -327,7 +302,7 @@ section {
 }
 
 .budas p {
-    width: 370px;
+    width: 400px;
 }
 
 .index6-text2 {
@@ -337,6 +312,10 @@ section {
 .index6-text3 {
     display: flex;
     width: 790px;
+}
+
+.index6-text .fa-store {
+    margin-top: 20px;
 }
 
 #index4 img {
@@ -356,46 +335,466 @@ section {
 #circle p {
     width: 260px;
     height: 200px;
-    vertical-align: center;
 }
+
+
+/* sventems */
+
+#sventems1 img {
+    width: 155px;
+    height: 103px;
+}
+
+#sventems1 .product,
+#sventems1 .product p {
+    width: 155px;
+    height: 103px;
+    
+}
+
+#sventems1 .product {
+    margin: 0 5px;
+}
+
+.element {
+    margin: 5px;
+}
+
+.element1 {
+    width: 404px;
+    height: 303px;
+}
+
+.element1 img  {
+    width: 404px;
+    height: 303px;
+}
+
+.element2,
+.element3,
+.element4 {
+    width: 197px;
+    height: 303px;
+}
+
+.element3 img {
+    width: 197px;
+    height: 303px;
+}
+
+.element2 img {
+    width: 197px;
+    height: 146px;
+}
+
+.element4 img {
+    width: 70px;
+    height: 70px;
+}
+
+.element4-text {
+    width: 197px;
+    height: 180px;
+}
+
+.element2-text1 {
+    width: 197px;
+    height: 117px;
+}
+
+.element2-text2 {
+    width: 197px;
+    height: 33px;
+}
+
+.element1 h3 {
+    font-size: 140%;
+}
+
+.element h5 {
+    font-size: 80%;
+}
+
+.element h5,
+.element p {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+#sventems2 .element1 h3 {
+	top:80%;
+	left:38%;
+}
+
+#sventems3 .element1 h3 {
+	top:18%;
+	left:75%;
+}
+
+#sventems6 .element1 h3 {
+	top:20%;
+}
+
+
+    /* vienetiniai */   /* geles */
+
+    .column {
+        width: 200px;
+        margin: 0 4px;
+      }
+
+    .img-type1 img {
+    height: 267px;
+  }
+
+    .img-type2 img {
+	height: 150px;
+  }
+
+    /* prieziura */
+
+    .isskleistas {
+        width: 820px;
+    }
+    
+    .prieziura-container img {
+        width: 380px;
+        height: 285px;
+        margin: 20px 30px 20px 0;
+    }
+
+    .prieziura-text {
+        width: 370px;
+    }
+    
+    /* parduotuve */
+    
+    #parduotuve1 img {
+        width: 260px;
+        height: 260px;
+        margin: 0 7px;
+    }
 
  /* darken */
 
- .darken p {
-	position: absolute;
-	top: 0px;
-	text-align: center;
-	color: transparent;
-	margin-top: 8px;
+.darken1 {
+	width: 200px;
+	height: 267px;
 }
 
-.darken1 p {
-	padding: 65% 0 50% 0;
+.darken2 {
 	width: 260px;
-	height: 346.7px;
+	height: 150px;
 }
 
-.darken2 p {
-	padding: 30% 0 30% 0;
-	width: 260px;
-	height: 195px;
-}
-
-.darken3 p {
-	padding-top: 40%;
+.darken3 {
 	width: 245px;
 	height: 245px;
-	margin: 5px;
-	left:0;
+}
+
+/* map */  /* urmas */
+
+#map,
+#urmas {
+	width: 400px;
+	height: 216px;
+}
+
+#urmas img {
+    width: 400px;
+	height: 216px;
 }
 
 }
+
+
 
 
 /* Small phones to small tablets: from 481px to 767px */
 
 @media only screen and (max-width: 767px) {
 
+    #navbar a {
+        display: block;
+        height: 40px;
+        position: relative;
+        width:120px;
+        
+    }
+
+    #navbar button {
+        text-align: left;
+        margin-left: 30px;
+        
+    }
+
+    #navbar .a-last {
+        margin-bottom: 10px;
+    } 
+
+    #navbar {
+        height: auto;
+        margin-top: 0;
+    }
+
+    .menu button {
+        padding: 0;
+        visibility: visible;
+        position: absolute;
+        right: 0;
+        background-color: transparent;
+        border:0;
+        right: 30px;
+    }
+
+    .fa-bars {
+        padding: 0;
+        visibility: visible;
+        font-size: 26px;
+        padding: 12px 0;
+        color: #eee;
+    }
+
+    .menu {
+        display: block;
+        width: 100%;
+        position: relative;
+        height: 50px;
+        background-color: #111;
+        margin-top:20px;
+    }
+
+    .grey {
+        padding: 30px;
+        width: 500px;
+    }
+
+    .nuorodos {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nuoroda {
+        width: 460px;
+    }
+
+    .nuoroda h4 {
+        margin-top: 20px;
+    }
+
+     /* index */
+
+     #index3 .products {
+        padding: 30px 0 10px 0;
+        width: 460px;
+    }
+
+    #index3 .flex-row {
+        flex-wrap: wrap;
+    }
+
+    #index3 .product {
+        width: 460px;
+        height: 230px;
+        margin: 0 0 15px 0;
+    }
+    
+    #index3 .product img {
+        width: 220px;
+        height: 220px;
+    }
+
+    .ziureti-daugiau { 
+        margin-top: 7px;
+    }
+
+    #index2 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .index2-img {
+        width: 460px;
+        height: 613px;
+    }
+
+    .index2-img img {
+        width: 460px;
+        height: 613px;
+    }
+
+    .card {
+        padding: 0;
+    }
+
+    .card-text p {
+        padding: 0 15px;
+        height: 60px;
+    }
+
+    .card-img {
+        height: 160px;
+        width: 230px;
+        margin: 10px 0;
+    }
+
+    .card-text {
+        width: 230px;
+        height:
+    }
+
+    .index6-wrap {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    #index6 img {
+        margin: 0;
+        width: 460px;
+        height: 460px;
+    }
+
+    #index6 h3 {
+        right: -20px;
+    }
+
+    .index6-text {
+        width: 460px;
+    }
+
+    .budas p {
+        width: 220px;
+    }
+
+    .budas2 {
+        margin-left: 20px;
+    }
+
+    .index6-text .flex-row {
+        flex-direction: row;
+    }
+
+    .index6-text .fa-store {
+        margin-top: 0;
+    }
+
+    .index6-text3 {
+        width: 460px;
+    }
+
+    #index4 {
+        flex-wrap: wrap;
+    }
+
+    #index4 img {
+        width: 460px;
+        height: 460px;
+        margin: 0;
+    }
+
+    .index4-text {
+        width: 460px;
+        padding-top: 20px;
+    }
+
+    #index5 {
+        height:450px;
+    }
+
+     /* sventems */
+
+     #sventems1 .flex-row {
+         flex-wrap: wrap;
+     }
+
+    #sventems1 .product {
+        margin: 7px 7px;
+    }
+
+    .element-bind {
+        flex-wrap: nowrap;
+    }
+
+    .element1 {
+        width: 486px;
+        height: 360px;
+    }
+    
+    .element1 img  {
+        width: 486px;
+        height: 360px;
+    }
+    
+    .element2,
+    .element3,
+    .element4 {
+        width: 236px;
+        height: 360px;
+    }
+    
+    .element3 img {
+        width: 236px;
+        height: 360px;
+    }
+    
+    .element2 img {
+        width: 236px;
+        height: 177px;
+    }
+    
+    .element4 img {
+        width: 90px;
+        height: 90px;
+    }
+    
+    .element4-text {
+        width: 236px;
+        height: 203px;
+    }
+    
+    .element2-text1 {
+        width: 236px;
+        height: 135px;
+    }
+    
+    .element2-text2 {
+        width: 236px;
+        height: 43px;
+    }
+
+    .element1 h3 {
+        font-size: 160%;
+    }
+
+
+     /* darken */
+
+.darken1 {
+	width: 200px;
+	height: 267px;
+}
+
+.darken2 {
+	width: 260px;
+	height: 150px;
+}
+
+.darken3,
+.darken3:hover {
+    width: 230px;
+    height: 230px;
+    margin:0px;
+    left: 230px;
+    background-color: #fff;
+}
+
+.darken p {
+    color: #444;
+}
+
+.darken:hover p {
+    color: #444;
+}
 
 }
 

@@ -1,12 +1,9 @@
 window.onscroll = function () {
-    console.log("labas");
     stickynav()
 };
 
 var navbar = document.getElementById("navbar");
-console.log(navbar);
 var jsnav = document.getElementById(document.getElementsByClassName('jsnav')[0].id);
-console.log(jsnav);
 var jsnavOffset = jsnav.offsetTop;
 
 
@@ -34,5 +31,16 @@ function popup(id, textToChange) {
     } else {
         x.className = x.className.replace(" w3-show", "");
         document.getElementById(textToChange).innerHTML = "Gėlės priežiūra";
+    }
+}
+
+
+function mobileNav() {
+    
+    var y = document.getElementById('navbar');
+    if (y.style.display === "block") {
+        y.style.display = "none";
+    } else {
+        y.style.display = "block";
     }
 }
