@@ -192,7 +192,7 @@ HEADER
 }
 
 #navbar {
-	display: block;
+	display: flex;
 }
 
 .nav {
@@ -234,15 +234,6 @@ HEADER
 	font-size: 26px;
 	padding: 12px 0;
 	color: #eee;
-}
-
-.menu {
-	display: block;
-	width: 100%;
-	position: relative;
-	height: 50px;
-	background-color: #111;
-	margin-top:20px;
 }
 
 
@@ -841,7 +832,7 @@ VIENETINIAI
 }
 
 .column {
-	width: 330px;
+	width: 315px;
 	margin: 0 5px;
   }
 
@@ -862,11 +853,11 @@ VIENETINIAI
   }
 
   .img-type1 img {
-	  height: 440px;
+	  height: 420px;
   }
 
   .img-type2 img {
-	  height: 247.5px;
+	  height: 236px;
   }
 
   .img-type1,
@@ -879,7 +870,7 @@ DARKEN
 ---------------*/
 
 .darken {
-    position: relative;
+    position: absolute;
 	background-color: transparent;
     display: flex;
     justify-content: center;
@@ -889,14 +880,14 @@ DARKEN
 }
 
 .darken1 {
-	width: 330px;
-	height: 440px;
+	width: 315px;
+	height: 420px;
 	top:8px;
 }
 
 .darken2 {
-	width: 330px;
-	height: 247.5px;
+	width: 315px;
+	height: 236px;
 	top: 8px;
 }
 
@@ -928,11 +919,9 @@ GELES
 
 #geles1 {
 	background-color:#e0ddd7;
-	flex-wrap: wrap;
 }
 
 #geles1 .flex-row{
-	flex-wrap: wrap;
 }
 
  /* -------------

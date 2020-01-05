@@ -483,7 +483,7 @@ footer div {
 }
 
 .darken2 {
-	width: 260px;
+	width: 200px;
 	height: 150px;
 }
 
@@ -535,6 +535,15 @@ footer div {
     #navbar {
         height: auto;
         margin-top: 0;
+    }
+
+    .menu {
+        display: block;
+        width: 100%;
+        position: relative;
+        height: 50px;
+        background-color: #111;
+        margin-top:20px;
     }
 
     .grey {
@@ -740,6 +749,10 @@ footer div {
 
     /* vienetiniai */   /* geles */
 
+    #vienetiniai1 .flex-row {
+        flex-wrap: wrap;
+    }
+    
     .column {
         width: 240px;
         margin: 0 5px;
@@ -761,10 +774,10 @@ footer div {
 	height: 180px;
   }
 
-  #geles1,
+  /* #geles1,
   #vienetiniai1 {
       flex-wrap: wrap;
-  }
+  } */
 
 
      /* darken */
