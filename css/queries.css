@@ -930,6 +930,7 @@
   .prieziura-container img {
     margin: 30px 0 30px 0;
     width: 410px;
+    height: 308px;
 }
 
   .prieziura-container .flex-row {
@@ -1248,6 +1249,20 @@
     font-size: 60%;
 }
 
+  #sventems3 .element1 h3 {
+    left: 70%;
+  }
+
+  #sventems4 .element1 h3 {
+    top: 18%;
+    left: 36%;
+  }
+
+  #sventems5 .element1 h3 {
+    top: 89%;
+    left: 35%;
+  }
+
 
   /* vienetiniai */ /* geles */
 
@@ -1280,6 +1295,7 @@
 .prieziura-container img {
   margin: 15px 0;
   width: 350px;
+  height: 263px;
 }
 
 .isskleistas {
@@ -1507,17 +1523,104 @@
  }
  
  .element1 h3 {
-    font-size: 160%;
+    font-size: 150%;
  }
 
+ #sventems4 .element1 h3 {
+    top: 21%;
+    left: 39%;
+  }
+
+    /* vienetiniai */ /* geles */
+
+  .column {
+    width: 165px;
+  }
+
+  .img-type1 {
+    height: 260px;
+  }
+
+    .img-type2 {
+	height: 164px;
+  }
+
+  .img-type1 img {
+    height: 220px;
+  }
+
+    .img-type2 img {
+	height: 124px;
+  }
+
+/* prieziura */
+
+.prieziura-container {
+    width: 330px;
+}
+
+.prieziura-container img {
+  width: 300px;
+  height: 225px;
+}
+
+.isskleistas {
+    width: 330px;
+}
+
+.prieziura-text p {
+  width: 300px;
+}
+
+.prieziura-text {
+  width: 300px;
+}
+
+.w3-container {
+  width: 320px;
+}
+
+.prieziura-col {
+    width:140px;
+}
+
+/* parduotuve */
+
+#parduotuve1 img {
+    width: 290px;
+    height: 290px;
+}
 
 
+/* darken */
 
+.darken1 {
+    width: 165px;
+    top: 220px;
+}
+
+.darken2 {
+    width: 165px;
+    top: 124px;
+}
 
     .darken3,
     .darken3:hover {
       width: 165px;
       height: 165px;
       left:165px;
+    }
+
+    /* map */ /* urmas */
+
+    #map,
+    #urmas {
+      width: 330px;
+      height: 178px;
+    }
+  
+    #urmas img {
+      width: 330px;
+      height: 178px;
     }
 }
