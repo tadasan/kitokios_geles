@@ -215,6 +215,11 @@
 
   h2 {
     font-size: 40px;
+
+  }
+
+  #intarpas h2 {
+      margin-bottom: 10px;
   }
 
   p {
@@ -1047,6 +1052,29 @@
 /* Small phones: from 0 to 480px */
 
 @media only screen and (max-width: 480px) {
+
+    .grey {
+        padding: 20px;
+        width: 350px;
+    }
+
+    .green {
+        padding-left:30px;
+    }
+
+    h2 {
+        font-size: 35px;
+    }
+
+    .nuoroda {
+        width: 380px;
+    }
+
+    .nuoroda {
+        margin:0;
+    }
+
+
 
 
   /* vienetiniai */ /* geles */
