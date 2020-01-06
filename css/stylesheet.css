@@ -341,6 +341,10 @@ INDEX2
 	width: 307px;
 }
 
+.card-text h5 {
+	text-align: center;
+}
+
 .card-text p {
 	padding: 0 20px;
 	height: 40px;
@@ -903,6 +907,7 @@ DARKEN
 	text-align: center;
 	color: transparent;
 	margin: 20px;
+	overflow: hidden;
 }
 
 .darken:hover {
