@@ -763,7 +763,6 @@
     
     .column {
         width: 240px;
-        margin: 0 5px;
       }
 
     .img-type1 {
@@ -781,45 +780,11 @@
     .img-type2 img {
 	height: 180px;
   }
-
-  /* #geles1,
-  #vienetiniai1 {
-      flex-wrap: wrap;
-  } */
-
-
-     /* darken */
-
-     .darken1 {
-        width: 240px;
-        height: 60px;
-        background-color: #fff;
-        position: absolute;
-        top: 320px;
-    }
-
-    .darken1:hover {
-        height: 70px;
-    }
-    
-    .darken2,
-    .darken2:hover {
-        width: 240px;
-        height: 60px;
-        background-color: #fff;
-        position: absolute;
-        top: 180px;
-    }
-
-  .card-img {
+  
+  /* .card-img {
     height: 160px;
     width: 230px;
     margin: 10px 0;
-  }
-
-  .card-text {
-    width: 230px;
-    height: ;
   }
 
   .index6-wrap {
@@ -878,11 +843,12 @@
 
   #index5 {
     height: 450px;
-  }
+  } 
+  */
 
   /* sventems */
 
-  #sventems1 .flex-row {
+  /* #sventems1 .flex-row {
     flex-wrap: wrap;
   }
 
@@ -943,39 +909,195 @@
 
   .element1 h3 {
     font-size: 160%;
+  }  */
+
+
+/* prieziura */
+
+  .prieziura-container {
+      width: 470px;
   }
 
-  /* darken */
+  .prieziura-container img {
+    margin: 30px 0 30px 0;
+    width: 410px;
+}
 
-  .darken1 {
-    width: 200px;
-    height: 267px;
+  .prieziura-container .flex-row {
+      flex-direction: column;
   }
 
-  .darken2 {
-    width: 260px;
-    height: 150px;
+  .isskleistas {
+      width: 470px;
   }
 
-  .darken3,
-  .darken3:hover {
-    width: 230px;
-    height: 230px;
-    margin: 0px;
-    left: 230px;
-    background-color: #fff;
+  .prieziura-text p {
+    margin-bottom: 10px;
+    width: 410px;
+}
+
+.prieziura-text {
+    width: 410px;
+}
+
+.w3-container {
+    flex-wrap: wrap;
+    width: 430px;
+    margin: 20px 20px;
+    padding: 0;
+}
+
+  .prieziura-col {
+      width:195px;
+      margin:10px 10px;
   }
 
-  .darken p {
+/* parduotuve */
+
+#parduotuve1 {
+    flex-direction:column;
+}
+
+#parduotuve1 img {
+    width: 430px;
+    height: 430px;
+    margin: 15px 0;
+}
+
+/* darken */
+
+     .darken1 {
+        width: 240px;
+        height: 60px;
+        background-color: #fff;
+        position: absolute;
+        top: 320px;
+    }
+
+    .darken1:hover,
+    .darken2:hover {
+        height: 100px;
+        background-color: #fff;
+        z-index:1;
+    }
+    
+    .darken2 {
+        width: 240px;
+        height: 60px;
+        background-color: #fff;
+        position: absolute;
+        top: 180px;
+    }
+
+    .darken3,
+    .darken3:hover {
+      width: 230px;
+      height: 230px;
+      margin: 0px;
+      left: 230px;
+      background-color: #fff;
+    }
+
+  .darken p,
+.darken:hover p {
     color: #444;
   }
 
-  .darken:hover p {
-    color: #444;
+  .apie-hide {
+      display: block;
   }
+
+  .aprasymas-hide {
+      display: none;
+  }
+
+  .darken2:hover .aprasymas-hide {
+      display: block;
+      transition-duration: 5s;
+  }
+
+  .darken2:hover .apie-hide {
+      display:none;
+      transition-duration: 5s;
+  }
+
+    /* map */ /* urmas */
+
+#content-map .flex-row {
+    flex-direction: column;
+}
+
+    #map,
+    #urmas {
+      width: 460px;
+      height: 248px;
+    }
+
+    #map {
+        margin-bottom: 30px;
+    }
+  
+    #urmas img {
+      width: 460px;
+      height: 248px;
+    }
+
 }
 
 /* Small phones: from 0 to 480px */
 
 @media only screen and (max-width: 480px) {
+
+
+  /* vienetiniai */ /* geles */
+
+  .column {
+    width: 190px;
+  }
+
+  .img-type1 {
+    height: 313px;
+  }
+
+    .img-type2 {
+	height: 202.5px;
+  }
+
+  .img-type1 img {
+    height: 253px;
+  }
+
+    .img-type2 img {
+	height: 142.5px;
+  }
+
+
+/* darken */
+
+.darken1 {
+    width: 190px;
+    height: 60px;
+    top: 253px;
+}
+
+.darken1:hover,
+.darken2:hover {
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.darken2 {
+    width: 190px;
+    height: 60px;
+    top: 142.5px;
+}
+
+.darken3,
+.darken3:hover {
+  width: 190px;
+  height: 230px;
+  left: 230px;
+}
+
+
 }
