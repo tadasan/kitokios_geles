@@ -779,16 +779,23 @@ SVENTEMS2,3,4,5
 .element4-text {
 	width: 280px;
 	height: 227.5px;
+	overflow: hidden;
 }
 
 .element2-text1 {
 	width: 280px;
 	height: 165px;
+	overflow: hidden;
 }
 
-.element2-text2 {
+.element2-text2{
 	width: 280px;
 	height: 46px;
+	overflow: hidden;
+}
+
+.element2-text2 h5 {
+	overflow: visible;
 }
 
 #sventems3 {
@@ -822,7 +829,8 @@ margin-top: 30px;
 #sventems2 .flex-row, 
 #sventems3 .flex-row,
 #sventems4 .flex-row,
-#sventems5 .flex-row {
+#sventems5 .flex-row,
+#sventems6 .flex-row {
 	flex-wrap: wrap;
 }
 
@@ -931,8 +939,6 @@ GELES
 	background-color:#e0ddd7;
 }
 
-#geles1 .flex-row{
-}
 
  /* -------------
 PRIEZIURA

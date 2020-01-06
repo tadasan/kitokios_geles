@@ -656,6 +656,10 @@
         width: 460px;
     }
 
+    .index6-text h4 {
+        margin-top: 10px;
+    }
+
     .budas p {
         width: 220px;
     }
@@ -1018,12 +1022,10 @@
 
   .darken2:hover .aprasymas-hide {
       display: block;
-      transition-duration: 5s;
   }
 
   .darken2:hover .apie-hide {
       display:none;
-      transition-duration: 5s;
   }
 
     /* map */ /* urmas */
@@ -1049,7 +1051,9 @@
 
 }
 
-/* Small phones: from 0 to 480px */
+
+
+/* Small phones: from 350px to 480px */
 
 @media only screen and (max-width: 480px) {
 
@@ -1103,6 +1107,7 @@
 
     .card-text p {
         height: 60px;
+        padding: 0 10px;
     }
 
     .card-img {
@@ -1125,7 +1130,7 @@
     }
 
     #index6 h3 {
-        right: -15px;
+        right: 0px;
     }
 
     .index6-text {
@@ -1133,20 +1138,115 @@
     }
 
     .budas p {
-        width: 170px;
+        width: 380px;
     }
 
+    .budas2 {
+        margin-left: 0;
+      }
+
     .index6-text .flex-row {
-        flex-direction: row;
+        flex-direction: column;
     }
 
     .index6-text .fa-store {
-        margin-top: 0;
+        margin-top: 20px;
     }
 
     .index6-text3 {
         width: 380px;
     }
+
+    #index4 img {
+        width: 380px;
+        height: 380px;
+    }
+
+    .index4-text {
+        width: 380px;
+    }
+
+    #index5 {
+        height:440px;
+    }
+
+
+ /* sventems */
+
+#sventems1 .product {
+   margin: 7px 7px;
+}
+
+.element1 {
+   width: 380px;
+   height: 285px;
+}
+
+.element1 img  {
+    width: 380px;
+    height: 285px;
+}
+
+.element2,
+.element3,
+.element4 {
+   width: 183px;
+   height: 285px;
+}
+
+.element3 img {
+    width: 183px;
+    height: 285px;
+}
+
+.element2 img {
+   width: 183px;
+   height: 137px;
+}
+
+.element4 img {
+   width: 75px;
+   height: 75px;
+}
+
+.element4-text {
+   width: 183px;
+   height: 170px;
+}
+
+.element4-text h5{
+    padding: 15px 10px;
+}
+
+.element2-text1 {
+   width: 183px;
+   height: 103px;
+}
+
+.element2-text2 {
+   width: 183px;
+   height: 40px;
+}
+
+.element1 h3 {
+   font-size: 160%;
+}
+
+.element2-text1 p,
+.element2-text1 h5 {
+    padding: 0 10px;
+}
+
+.element2-text1 h5,
+.element4-text h5 {
+    text-align: center;
+    font-size: 70%;
+}
+
+.element2-text1 p,
+.element2-text2 p {
+    font-size: 60%;
+}
 
 
   /* vienetiniai */ /* geles */
@@ -1170,6 +1270,46 @@
     .img-type2 img {
 	height: 142.5px;
   }
+
+/* prieziura */
+
+.prieziura-container {
+    width: 380px;
+}
+
+.prieziura-container img {
+  margin: 15px 0;
+  width: 350px;
+}
+
+.isskleistas {
+    width: 380px;
+}
+
+.prieziura-text p {
+  width: 350px;
+}
+
+.prieziura-text {
+  width: 350px;
+}
+
+.w3-container {
+  width: 370px;
+  margin: 5px 5px;
+}
+
+.prieziura-col {
+    width:165px;
+}
+
+/* parduotuve */
+
+#parduotuve1 img {
+    width: 340px;
+    height: 340px;
+    margin: 10px 0;
+}
 
 
 /* darken */
@@ -1196,5 +1336,188 @@
   left: 190px;
 }
 
+.darken3 p {
+    margin: 8px;
+}
 
+    /* map */ /* urmas */
+
+    #map,
+    #urmas {
+      width: 380px;
+      height: 205px;
+    }
+  
+    #urmas img {
+      width: 380px;
+      height: 205px;
+    }
+
+
+}
+
+
+/* Extra small phones: from 0 px to 349px */
+
+@media only screen and (max-width: 349px) {
+
+
+    .grey {
+        padding: 15px;
+        width: 310px;
+    }
+
+    .green {
+        padding-left:20px;
+    }
+
+    .nuoroda {
+        width: 330px;
+    }
+
+    /* index */
+
+    #index3 .products {
+        width: 330px;
+    }
+
+    #index3 .product {
+        width: 330px;
+        height: 165px;
+    }
+    
+    #index3 .product img {
+        width: 155px;
+        height: 155px;
+    }
+
+    .index2-img {
+        width: 330px;
+        height: 440px;
+    }
+
+    .index2-img img {
+        width: 330px;
+        height: 440px;
+    }
+
+    .card-text p {
+        height: 60px;
+    }
+
+    .card-img {
+        height: 123px;
+        width: 165px;
+    }
+
+    .card-text {
+        width: 165px;
+    }
+
+    #index6 img {
+        width: 330px;
+        height: 330px;
+    }
+
+    .index6-text {
+        width: 330px;
+    }
+
+    .budas p {
+        width: 330px;
+    }
+
+    .index6-text .fa-store {
+        margin-top: 20px;
+    }
+
+    .index6-text3 {
+        width: 330px;
+    }
+
+    #index4 img {
+        width: 330px;
+        height: 330px;
+    }
+
+    .index4-text {
+        width: 330px;
+    }
+
+    #index5 {
+        height:400px;
+    }
+
+    #circle {
+        width: 320px;
+        height: 320px;
+      }
+
+ /* sventems */
+
+ #sventems1 .product {
+    margin: 6px 6px;
+ }
+ 
+ .element1 {
+    width: 330px;
+    height: 248px;
+ }
+ 
+ .element1 img  {
+     width: 330px;
+     height: 248px;
+ }
+ 
+ .element2,
+ .element3,
+ .element4 {
+    width: 159px;
+    height: 248px;
+ }
+ 
+ .element3 img {
+     width: 159px;
+     height: 248px;
+ }
+ 
+ .element2 img {
+    width: 159px;
+    height: 119px;
+ }
+ 
+ .element4 img {
+    width: 65px;
+    height: 65px;
+ }
+ 
+ .element4-text {
+    width: 159px;
+    height: 150px;
+ }
+ 
+ .element2-text1 {
+    width: 159px;
+    height: 90px;
+ }
+ 
+ .element2-text2 {
+    width: 159px;
+    height: 37px;
+ }
+ 
+ .element1 h3 {
+    font-size: 160%;
+ }
+
+
+
+
+
+    .darken3,
+    .darken3:hover {
+      width: 165px;
+      height: 165px;
+      left:165px;
+    }
 }
