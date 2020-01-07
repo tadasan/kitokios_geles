@@ -1,3 +1,74 @@
+@media only screen and (max-width: 1297px) {
+
+  
+  #apie1 .flex-row {
+    width: 1290px;
+  }
+  
+  .apie1-img-text {
+  width: 917px;
+  }
+  
+  .apie1-img-text img {
+    width: 827px;
+    height: 400px;
+    object-fit: cover;
+    margin-bottom: 40px;
+  }
+  
+  .apie1-round {
+    width: 367px;
+    padding: 40px;
+  }
+  
+  .apie1-round img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 0px transparent solid;
+    border-radius: 200px;
+    margin-bottom: 40px;
+  }
+  
+  .apie1-round p {
+    margin-top: 12px;
+  }
+  
+  #apie3 {
+    background-color: rgb(102, 125, 70);
+    width: 100%;
+    height: 150px;	
+  }
+  
+  #apie3 h3 {
+    margin-right: 50px;
+  }
+  
+  .straipsniai p {
+    color: #eee;
+    font-style: italic;
+    margin: 10px 0;
+  }
+  
+  .straipsniai .flex-row {
+    justify-content: flex-start;
+  }
+  
+  .straipsniai img {
+    width: 17px;
+    height: 17px;
+    margin-right: 10px;
+  }
+  
+  .straipsniai a:hover p {
+    color: #aaa;
+  }
+
+}
+
+
+
+
 /* Big tablets to computer (width smaller that the 1140px row): from 1024px to 1200px */
 
 @media only screen and (max-width: 1200px) {
@@ -218,9 +289,6 @@
 
   }
 
-  #intarpas h2 {
-      margin-bottom: 10px;
-  }
 
   p {
     font-size: 13px;

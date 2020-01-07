@@ -468,6 +468,10 @@ INDEX4
 	width: 100%;
 }
 
+#intarpas h2 {
+	margin-bottom: 10px;
+}
+
 .green {
 	background: linear-gradient(to right, rgba(102, 125, 70, 0.77) 0%, rgba(102, 125, 70, 0.76) 16%, rgba(1102, 125, 70, 0.93) 72%, rgba(102, 125, 70, 0.95) 100%);
 	padding-left:40px;
@@ -700,7 +704,8 @@ SVENTEMS2,3,4,5
 	padding-bottom: 20px;
 }
 
-.element4 hr {
+.element4 hr,
+.apie1-round hr {
 	border-top: 1px solid #84a15c;
 	width: 50px;
 }
@@ -1006,6 +1011,77 @@ APIE
 	height: 400px;
 	object-fit: cover;
 } */
+
+#apie1 {
+	background-color: #e0ddd7;
+}
+
+#apie1 .flex-row {
+	width: 1400px;
+	background-color: #fff;
+	margin: 0 auto;
+}
+
+.apie1-img-text {
+width: 1000px;
+padding: 40px;
+border-right: 10px #e0ddd7 solid;
+}
+
+.apie1-img-text img {
+	width: 910px;
+	height: 400px;
+	object-fit: cover;
+	margin-bottom: 40px;
+}
+
+.apie1-round {
+	width: 400px;
+	padding: 40px;
+}
+
+.apie1-round img {
+	width: 200px;
+	height: 200px;
+	object-fit: cover;
+	border: 0px transparent solid;
+	border-radius: 200px;
+	margin-bottom: 40px;
+}
+
+.apie1-round p {
+	margin-top: 12px;
+}
+
+#apie3 {
+	background-color: rgb(102, 125, 70);
+	width: 100%;
+	height: 150px;	
+}
+
+#apie3 h3 {
+	margin-right: 50px;
+}
+
+.straipsniai p {
+	color: #eee;
+	font-style: italic;
+	margin: 10px 0;
+}
+
+.straipsniai .flex-row {
+	justify-content: flex-start;
+}
+
+.straipsniai img {
+	width: 17px;
+	height: 17px;
+	margin-right: 10px;
+}
+
+.straipsniai a:hover p {
+	color: #aaa;
+}
 
 #content-map {
 	width: 100%;
