@@ -1,0 +1,831 @@
+/* Big tablets to computer (width smaller that the 1140px row): from 1024px to 1200px */
+
+@media only screen and (max-width: 1200px) {
+
+.nuoroda {
+	margin: 0 13px;
+}
+
+.aplankykite {
+	width: 30%;
+}
+
+/* index */
+
+#index3 .product {
+	margin: 0 10px;
+	width:310px;
+	height: 310px;
+}
+
+#index3 .product img {
+	width: 300px;
+	height: 300px;
+}
+
+.index2-img {
+    height: 580px;
+        width: 435px;
+}
+
+    .index2-img img {
+        height: 580px;
+        width: 435px;
+    }
+
+    .card-text p {
+        padding: 0 15px;
+        height: 60px;
+    }
+
+    .card-img {
+        height: 180px;
+        width: 252px;
+        margin: 10px 0;
+    }
+
+    .card-text {
+        width: 252px;
+    }
+
+    #index6 img {
+        width: 330px;
+        height: 330px;
+        margin-right: 50px;
+    }
+    
+    .index6-text p {
+        width: 580px;
+    }
+
+    .budas p {
+        width: 280px;
+    }
+
+    #index6 h3 {
+        font-size: 100%;
+        width: 220px;
+        padding: 20px;
+        right: 25px;
+    }
+
+    /* sventems */
+
+    #sventems1 img {
+        width: 180px;
+        height: 120px;
+    }
+
+    #sventems1 .product,
+    #sventems1 .product p {
+        width: 180px;
+        height: 120px;
+        
+    }
+
+    #sventems1 .product {
+        margin: 0 7px;
+    }
+
+    .element1 {
+        width: 486px;
+        height: 360px;
+    }
+    
+    .element1 img  {
+        width: 486px;
+        height: 360px;
+    }
+    
+    .element2,
+    .element3,
+    .element4 {
+        width: 236px;
+        height: 360px;
+    }
+    
+    .element3 img {
+        width: 236px;
+        height: 360px;
+    }
+    
+    .element2 img {
+        width: 236px;
+        height: 177px;
+    }
+    
+    .element4 img {
+        width: 90px;
+        height: 90px;
+    }
+    
+    .element4-text {
+        width: 236px;
+        height: 203px;
+    }
+    
+    .element2-text1 {
+        width: 236px;
+        height: 135px;
+    }
+    
+    .element2-text2 {
+        width: 236px;
+        height: 43px;
+    }
+
+    .element1 h3 {
+        font-size: 160%;
+    }
+
+    /* vienetiniai */   /* geles */
+
+    .column {
+        width: 240px;
+        margin: 0 5px;
+      }
+
+    .img-type1 img {
+    height: 320px;
+  }
+
+    .img-type2 img {
+	height: 180px;
+  }
+
+  /* prieziura */
+
+  .isskleistas {
+	width: 1000px;
+}
+
+.prieziura-container img {
+	width: 430px;
+    height: 322.5;
+}
+
+/* parduotuve */
+
+#parduotuve1 img {
+	width: 310px;
+    height: 310px;
+}
+
+ /* darken */
+
+.darken1 {
+	width: 240px;
+	height: 320px;
+}
+
+.darken2 {
+	width: 240px;
+	height: 180px;
+}
+
+.darken3 {
+	width: 300px;
+	height: 300px;
+}
+
+/* map */  /* urmas */
+
+#map,
+#urmas {
+	width: 470px;
+	height: 254px;
+}
+
+#urmas img {
+    width: 470px;
+	height: 254px;
+}
+
+}
+
+
+
+
+/* Small tablets to big tablets: from 768px to 1023px */
+
+@media only screen and (max-width: 1023px) {
+
+.nav {
+    height: 50px;
+}
+
+.nav button {
+	height: 50px;
+	width: 120px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 13px; 
+}
+
+.ornament {
+    margin-bottom: 10px;
+}
+
+section {
+    padding: 40px 0;
+}
+
+.nuoroda {
+	width: 260px;
+}
+
+.aplankykite {
+	width: 30%;
+}
+
+footer div {
+    padding: 25px;
+}
+
+/* index */
+
+#index3 .products {
+    padding-top: 40px;
+}
+
+#index3 .product {
+	width: 255px;
+    height: 255px;
+    margin: 0 7px;
+}
+
+#index3 .product img {
+	width: 245px;
+	height: 245px;
+}
+
+.index2-img {
+    height: 500px;
+    width: 375px;
+}
+
+.index2-img img {
+    height: 500px;
+    width: 375px;
+}
+
+.card-img {
+    height: 153px;
+    width: 214px;
+    margin: 10px 0;
+}
+
+.card-text {
+    width: 214px;
+}
+
+.card-text p {
+    padding: 0 10px;
+    height: 60px;
+}
+
+.card-text img {
+	width: 25px;
+}
+
+.index6-text .flex-row {
+    flex-direction: column;
+}
+
+.budas2 {
+    margin-left: 0;
+}
+
+.budas p {
+    width: 400px;
+}
+
+.index6-text2 {
+    display: none;
+}
+
+.index6-text3 {
+    display: flex;
+    width: 790px;
+}
+
+.index6-text .fa-store {
+    margin-top: 20px;
+}
+
+#index4 img {
+	width: 300px;
+	height: 300px;
+}
+
+#index5 {
+    height: 500px;
+}
+
+#circle {
+    width: 360px;
+    height: 360px;
+}
+
+#circle p {
+    width: 260px;
+    height: 200px;
+}
+
+
+/* sventems */
+
+#sventems1 img {
+    width: 155px;
+    height: 103px;
+}
+
+#sventems1 .product,
+#sventems1 .product p {
+    width: 155px;
+    height: 103px;
+    
+}
+
+#sventems1 .product {
+    margin: 0 5px;
+}
+
+.element {
+    margin: 5px;
+}
+
+.element1 {
+    width: 404px;
+    height: 303px;
+}
+
+.element1 img  {
+    width: 404px;
+    height: 303px;
+}
+
+.element2,
+.element3,
+.element4 {
+    width: 197px;
+    height: 303px;
+}
+
+.element3 img {
+    width: 197px;
+    height: 303px;
+}
+
+.element2 img {
+    width: 197px;
+    height: 146px;
+}
+
+.element4 img {
+    width: 70px;
+    height: 70px;
+}
+
+.element4-text {
+    width: 197px;
+    height: 180px;
+}
+
+.element2-text1 {
+    width: 197px;
+    height: 117px;
+}
+
+.element2-text2 {
+    width: 197px;
+    height: 33px;
+}
+
+.element1 h3 {
+    font-size: 140%;
+}
+
+.element h5 {
+    font-size: 80%;
+}
+
+.element h5,
+.element p {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+#sventems2 .element1 h3 {
+	top:80%;
+	left:38%;
+}
+
+#sventems3 .element1 h3 {
+	top:18%;
+	left:75%;
+}
+
+#sventems6 .element1 h3 {
+	top:20%;
+}
+
+
+    /* vienetiniai */   /* geles */
+
+    .column {
+        width: 200px;
+        margin: 0 4px;
+      }
+
+    .img-type1 img {
+    height: 267px;
+  }
+
+    .img-type2 img {
+	height: 150px;
+  }
+
+    /* prieziura */
+
+    .isskleistas {
+        width: 820px;
+    }
+    
+    .prieziura-container img {
+        width: 380px;
+        height: 285px;
+        margin: 20px 30px 20px 0;
+    }
+
+    .prieziura-text {
+        width: 370px;
+    }
+    
+    /* parduotuve */
+    
+    #parduotuve1 img {
+        width: 260px;
+        height: 260px;
+        margin: 0 7px;
+    }
+
+ /* darken */
+
+.darken1 {
+	width: 200px;
+	height: 267px;
+}
+
+.darken2 {
+	width: 200px;
+	height: 150px;
+}
+
+.darken3 {
+	width: 245px;
+	height: 245px;
+}
+
+/* map */  /* urmas */
+
+#map,
+#urmas {
+	width: 400px;
+	height: 216px;
+}
+
+#urmas img {
+    width: 400px;
+	height: 216px;
+}
+
+}
+
+
+
+
+/* Small phones to small tablets: from 481px to 767px */
+
+@media only screen and (max-width: 767px) {
+
+    #navbar a {
+        display: block;
+        height: 40px;
+        position: relative;
+        width:120px;
+        
+    }
+
+    #navbar button {
+        text-align: left;
+        margin-left: 30px;
+        
+    }
+
+    #navbar .a-last {
+        margin-bottom: 10px;
+    } 
+
+    #navbar {
+        height: auto;
+        margin-top: 0;
+    }
+
+    .menu {
+        display: block;
+        width: 100%;
+        position: relative;
+        height: 50px;
+        background-color: #111;
+        margin-top:20px;
+    }
+
+    .grey {
+        padding: 25px;
+        width: 440px;
+    }
+
+    .nuorodos {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nuoroda {
+        width: 460px;
+    }
+
+    .nuoroda h4 {
+        margin-top: 20px;
+    }
+
+     /* index */
+
+     #index3 .products {
+        padding: 30px 0 10px 0;
+        width: 460px;
+    }
+
+    #index3 .flex-row {
+        flex-wrap: wrap;
+    }
+
+    #index3 .product {
+        width: 460px;
+        height: 230px;
+        margin: 0 0 15px 0;
+    }
+    
+    #index3 .product img {
+        width: 220px;
+        height: 220px;
+    }
+
+    .ziureti-daugiau { 
+        margin-top: 7px;
+    }
+
+    #index2 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .index2-img {
+        width: 460px;
+        height: 613px;
+    }
+
+    .index2-img img {
+        width: 460px;
+        height: 613px;
+    }
+
+    .card {
+        padding: 0;
+    }
+
+    .card-text p {
+        padding: 0 15px;
+        height: 60px;
+    }
+
+    .card-img {
+        height: 160px;
+        width: 230px;
+        margin: 10px 0;
+    }
+
+    .card-text {
+        width: 230px;
+    }
+
+    .index6-wrap {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    #index6 img {
+        margin: 0;
+        width: 460px;
+        height: 460px;
+    }
+
+    #index6 h3 {
+        right: -20px;
+    }
+
+    .index6-text {
+        width: 460px;
+    }
+
+    .budas p {
+        width: 220px;
+    }
+
+    .budas2 {
+        margin-left: 20px;
+    }
+
+    .index6-text .flex-row {
+        flex-direction: row;
+    }
+
+    .index6-text .fa-store {
+        margin-top: 0;
+    }
+
+    .index6-text3 {
+        width: 460px;
+    }
+
+    #index4 {
+        flex-wrap: wrap;
+    }
+
+    #index4 img {
+        width: 460px;
+        height: 460px;
+        margin: 0;
+    }
+
+    .index4-text {
+        width: 460px;
+        padding-top: 20px;
+    }
+
+    #index5 {
+        height:450px;
+    }
+
+     /* sventems */
+
+     #sventems1 .flex-row {
+         flex-wrap: wrap;
+     }
+
+    #sventems1 .product {
+        margin: 7px 7px;
+    }
+
+    .element-bind {
+        flex-wrap: nowrap;
+    }
+
+    .element1 {
+        width: 486px;
+        height: 360px;
+    }
+    
+    .element1 img  {
+        width: 486px;
+        height: 360px;
+    }
+    
+    .element2,
+    .element3,
+    .element4 {
+        width: 236px;
+        height: 360px;
+    }
+    
+    .element3 img {
+        width: 236px;
+        height: 360px;
+    }
+    
+    .element2 img {
+        width: 236px;
+        height: 177px;
+    }
+    
+    .element4 img {
+        width: 90px;
+        height: 90px;
+    }
+    
+    .element4-text {
+        width: 236px;
+        height: 203px;
+    }
+    
+    .element2-text1 {
+        width: 236px;
+        height: 135px;
+    }
+    
+    .element2-text2 {
+        width: 236px;
+        height: 43px;
+    }
+
+    .element1 h3 {
+        font-size: 160%;
+    }
+
+    /* vienetiniai */   /* geles */
+
+    #vienetiniai1 .flex-row {
+        flex-wrap: wrap;
+    }
+    
+    .column {
+        width: 240px;
+        margin: 0 5px;
+      }
+
+    .img-type1 {
+    height: 380px;
+  }
+
+    .img-type2 {
+	height: 240px;
+  }
+
+  .img-type1 img {
+    height: 320px;
+  }
+
+    .img-type2 img {
+	height: 180px;
+  }
+
+  /* #geles1,
+  #vienetiniai1 {
+      flex-wrap: wrap;
+  } */
+
+
+     /* darken */
+
+     .darken1 {
+        width: 240px;
+        height: 60px;
+        background-color: #fff;
+        position: absolute;
+        top: 320px;
+    }
+
+    .darken1:hover {
+        height: 70px;
+    }
+    
+    .darken2,
+    .darken2:hover {
+        width: 240px;
+        height: 60px;
+        background-color: #fff;
+        position: absolute;
+        top: 180px;
+    }
+
+.darken3,
+.darken3:hover {
+    width: 230px;
+    height: 230px;
+    margin:0px;
+    left: 230px;
+    background-color: #fff;
+}
+
+.darken p {
+    color: #444;
+}
+
+.darken:hover p {
+    color: #444;
+}
+
+}
+
+
+/* Small phones: from 0 to 480px */
+
+@media only screen and (max-width: 480px) {
+
+
+}
