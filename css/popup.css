@@ -6,8 +6,7 @@
     display: flex!important
 }
 
-.w3-container:after,
-.w3-container:before {
+.w3-container:after, .w3-container:before {
     content: "";
     display: table;
     clear: both

@@ -1,65 +1,65 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    
-    <link rel="apple-touch-icon" sizes="76x76" href="/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
-    <link rel="manifest" href="favicon/site.webmanifest">
-    <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
-    <meta name="msapplication-TileColor" content="#ffc40d">
-    <meta name="theme-color" content="#ffffff">
-    <link
-      href="https://fonts.googleapis.com/css?family=Abril+Fatface|Poppins:300"
-      rel="stylesheet"
-    />
-    <link href="css/icons.css" rel="stylesheet" />
-    <link rel="stylesheet" type="text/css" href="css/stylesheet.css" />
+<html lang="lt">
 
-    <link
-      href="https://fonts.googleapis.com/css?family=Caveat+Brush|Raleway:100,300,400,500,700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" type="text/css" href="css/queries.css" />
-  </head>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Kitokios gėlės - tai kitokių gėlių parduotuvė.">
 
-  <body>
-    <header>
-      <div id="header" class="flex-column">
-        <img src="images/logo.png" alt="logotipas" id="logo" />
-        <div class="menu">
-          <button onclick="mobileNav()"><i class="fas fa-bars"></i></button>
-        </div>
-        <div id="navbar" class="nav row flex-row">
-          <a href="index.html"><button>pradžia</button></a>
-          <a href="sventems.html"><button>šventėms</button></a>
-          <a href="vienetiniai.html"><button>vienetiniai</button></a>
-          <a href="geles.html"><button>gėlės</button></a>
-          <a href="prieziura.html"><button>gėlių priežiūra</button></a>
-          <a href="apie.html"><button>apie mus</button></a>
-          <a class="a-last" href="parduotuve.html"
-            ><button>parduotuvė</button></a
-          >
-        </div>
-        <div id="slides" class="row flex-column">
-          <div id="hero-text">
-            <h1>Atneškite savo gėlę pas mus ir mes ją padekoruosime</h1>
+  <link rel="stylesheet" type="text/css" href="css/icons.css" />
+  <link rel="stylesheet" type="text/css" href="css/popup.css" />
+  <link rel="stylesheet" type="text/css" href="css/animate.css" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <link rel="stylesheet" type="text/css" href="css/queries.css" />
+  <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Poppins:300" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Caveat+Brush|Raleway:100,300,400,500,700&display=swap"
+    rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  <title>Kitokios gėlės</title>
+
+  <link rel="apple-touch-icon" sizes="76x76" href="/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+  <link rel="manifest" href="favicon/site.webmanifest">
+  <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#ffc40d">
+  <meta name="theme-color" content="#ffffff">
+
+</head>
+
+<body>
+  <header>
+    <div id="header" class="flex-column">
+      <img src="images/logo.png" alt="logotipas" id="logo" />
+      <div class="menu">
+        <button onclick="mobileNav()"><i class="fas fa-bars"></i></button>
+      </div>
+      <div id="navbar" class="nav row flex-row">
+        <button><a href="index.html">pradžia</a></button>
+        <button><a href="sventems.html">šventėms</a></button>
+        <button><a href="vienetiniai.html">vienetiniai</a></button>
+        <button><a href="geles.html">gėlės</a></button>
+        <button><a href="prieziura.html">gėlių priežiūra</a></button>
+        <button><a href="apie.html">apie mus</a></button>
+        <button><a class="a-last" href="parduotuve.html">parduotuvė</a></button>
+      </div>
+      <div id="slides" class="row flex-column">
+        <div id="hero-text">
+          <h1>Atneškite savo gėlę pas mus ir mes ją padekoruosime</h1>
 
           <!-- <a href="#" class="suzinoti-daugiau"><button>sužinoti daugiau</button></a> -->
         </div>
       </div>
-    </header>
+  </header>
 
-    <section id="index3" class="flex-column jsnav">
-      <h2>Kitokios gėlės</h2>
-      <div class="products flex-row">
-        <div class="product">
-          <img src="images/q.jpg" alt="" />
-          <div class="darken darken3">
-            <p>trumpas gėlės aprašymas<br /><br />kaina</p>
-          </div>
-          <!-- <div class="prices">
+  <section id="index3" class="flex-column jsnav">
+    <h2>Kitokios gėlės</h2>
+    <div class="products flex-row js--wp-1">
+      <div class="product">
+        <img src="images/q.jpg" alt="" />
+        <div class="darken darken3">
+          <p>trumpas gėlės aprašymas<br /><br />kaina</p>
+        </div>
+        <!-- <div class="prices">
                         <div class="price-text">
                             <p>Trumpas gėlės<br>
                                 aprašymas
@@ -69,226 +69,226 @@
                             <p>2,99 eur</p>
                         </div>
                     </div> -->
-        </div>
-        <div class="product">
-          <img src="images/gimtadienis4.jpg" alt="" />
-          <div class="darken darken3">
-            <p>
-              trumpas gėlės aprašymas kgkgkhkkl l lkkk llk l kllllk l kl k h hg
-              hg f gf ggggggfgfgf gfgygyg ugftff<br /><br />kaina
-            </p>
-          </div>
-        </div>
-        <div class="product">
-          <img src="images/vestuves.jpg" alt="" />
-          <div class="darken darken3">
-            <p>
-              trumpas gėlės aprašymas kgkghh h hh hhhhhhh hh hh hh h hhh hhhh
-              hhhhhhhhhhh hhhhhhhhh hhhhhhhh khkkl l lkkk llk l kllllk l kl k h
-              hg hg f gf ggggggfgfgf gfgygyg ugftff<br /><br />kaina
-            </p>
-          </div>
-        </div>
       </div>
-      <a href="geles.html" class="ziureti-daugiau"
-        ><button>Žiūrėti daugiau</button></a
-      >
-    </section>
-
-    <section id="index2" class="row flex-row">
-      <div class="index2-img">
-        <img src="images/picture11.jpg" alt="prekė" />
-      </div>
-      <div id="cards">
-        <a href="geles.html">
-          <div class="card flex-row">
-            <img src="images/gimtadienis4.jpg" alt="prekė" class="card-img" />
-            <div class="card-text flex-column">
-              <img src="images/orn1.png" alt="ornamentas" class="ornament" />
-              <h5>Įprastos gėlės</h5>
-              <p>
-                basl ll llsl ls llsalsl l ll l lLorem ipsum dolor sit amet,
-                consectetur adipiscing elit.
-              </p>
-            </div>
-          </div>
-        </a>
-        <a href="sventems.html">
-          <div class="card flex-row">
-            <div class="card-text flex-column">
-              <img src="images/orn1.png" alt="ornamentas" class="ornament" />
-              <h5>Gėlės jūsų šventei</h5>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            </div>
-            <img src="images/gimtadienis3.jpg" alt="prekė" class="card-img" />
-          </div>
-        </a>
-        <a href="vienetiniai.html">
-          <div class="card flex-row no-border">
-            <img src="images/vestuves.jpg" alt="prekė" class="card-img" />
-            <div class="card-text flex-column">
-              <img src="images/orn1.png" alt="ornamentas" class="ornament" />
-              <h5>Kompozicijos</h5>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            </div>
-          </div>
-        </a>
-      </div>
-    </section>
-
-    <section id="index6">
-      <div class="narrow flex-column">
-        <div class="flex-row index6-wrap">
-          <div class="index6-img">
-            <img src="./images/kompozicija.jpg" alt="" />
-            <h3>Norite unikalios kompozicijos?</h3>
-          </div>
-          <div class="index6-text">
-            <h4>Užsisakyti kompozicijas galite dviem būdais:</h4>
-            <div class="flex-row">
-              <div class="budas">
-                <i class="fas fa-comments"></i>
-                <p>
-                  Atsiųskite į mūsų „Facebook“ paskyrą norimos kompozicijos
-                  nuotrauką, norimą kompozicijų kiekį, datą, kada planuojate
-                  atsiimti bei telefono numerį (kai kompozicijos būna
-                  susodintos, mes išsiunčiame Jums SMS žinutę. Susodiname kuo
-                  ankščiau, o atsiimti galite tada kai Jums reikės);
-                </p>
-              </div>
-              <div class="budas budas2">
-                <i class="fas fa-store"></i>
-                <p>
-                  Atvykite į mūsų saloną ir gyvai išsirinkite keramiką/stiklo
-                  indus bei augalus, dekorą ir kitas norimas detales -
-                  susodinsime kompoziciją pagal individualius pageidavimus.
-                </p>
-              </div>
-            </div>
-            <br />
-            <div class="index6-text2">
-              <p>
-                Dėl augalų sezoniškumo bei kitų priežasčių mūsų turimi augalai
-                nuolat keičiasi, todėl negalime garantuoti, kad susodinsime
-                kompozicijas, identiškas pavaizduotoms nuotraukose. Taip pat
-                gali kisti keramikos bei stiklinių indų pasiūla. Tad mūsų
-                patarimas - kompozicijas užsisakinėkite kiek įmanoma anksčiau,
-                nes užsisakyti kompoziciją per anksti nebus, gali būti tik per
-                vėlai. <br /><br />
-                Puslapyje kainos nurodytos konkrečiai kompozicijai ir būtent su
-                tokiu dekoru. Kiekvienu atveju kompozicijos kaina gali skirtis
-                dėl dekoro bei kitų elementų kiekio panaudojimo kompozicijoje.
-              </p>
-            </div>
-            <!-- <p>Kainos nurodytos konkrečiai kompozicijai ir būtent su tokiu dekoru. Kiekvienu atveju kompozicijos kaina gali skirtis dėl dekoro bei kitų elementų kiekio panaudojimo kompozicijoje</p> -->
-          </div>
-        </div>
-        <div class="index6-text3">
+      <div class="product">
+        <img src="images/gimtadienis4.jpg" alt="" />
+        <div class="darken darken3">
           <p>
-            Dėl augalų sezoniškumo bei kitų priežasčių mūsų turimi augalai
-            nuolat keičiasi, todėl negalime garantuoti, kad susodinsime
-            kompozicijas, identiškas pavaizduotoms nuotraukose. Taip pat gali
-            kisti keramikos bei stiklinių indų pasiūla. Tad mūsų patarimas -
-            kompozicijas užsisakinėkite kiek įmanoma anksčiau, nes užsisakyti
-            kompoziciją per anksti nebus, gali būti tik per vėlai. <br /><br />
-            Puslapyje kainos nurodytos konkrečiai kompozicijai ir būtent su
-            tokiu dekoru. Kiekvienu atveju kompozicijos kaina gali skirtis dėl
-            dekoro bei kitų elementų kiekio panaudojimo kompozicijoje.
+            trumpas gėlės aprašymas kgkgkhkkl l lkkk llk l kllllk l kl k h hg
+            hg f gf ggggggfgfgf gfgygyg ugftff<br /><br />kaina
           </p>
         </div>
       </div>
-    </section>
+      <div class="product">
+        <img src="images/vestuves.jpg" alt="" />
+        <div class="darken darken3">
+          <p>
+            trumpas gėlės aprašymas kgkghh h hh hhhhhhh hh hh hh h hhh hhhh
+            hhhhhhhhhhh hhhhhhhhh hhhhhhhh khkkl l lkkk llk l kllllk l kl k h
+            hg hg f gf ggggggfgfgf gfgygyg ugftff<br /><br />kaina
+          </p>
+        </div>
+      </div>
+    </div>
+    <a href="geles.html" class="ziureti-daugiau"><button>Žiūrėti daugiau</button></a>
+  </section>
 
-    <section id="index4" class="flex-row">
-      <img src="images/picturee.jpg" alt="#" />
-      <div class="index4-text">
-        <h4>Pavadinimas</h4>
-        <hr />
+  <section id="index2" class="row flex-row">
+    <div class="index2-img">
+      <img src="images/picture11.jpg" alt="prekė" />
+    </div>
+    <div id="cards">
+      <a href="geles.html">
+        <div class="card flex-row">
+          <img src="images/gimtadienis4.jpg" alt="prekė" class="card-img js--wp-2" />
+          <div class="card-text flex-column">
+            <img src="images/orn1.png" alt="ornamentas" class="ornament" />
+            <h5>Įprastos gėlės</h5>
+            <p>
+              basl ll llsl ls llsalsl l ll l lLorem ipsum dolor sit amet,
+              consectetur adipiscing elit.
+            </p>
+          </div>
+        </div>
+      </a>
+      <a href="sventems.html">
+        <div class="card flex-row">
+          <div class="card-text flex-column">
+            <img src="images/orn1.png" alt="ornamentas" class="ornament" />
+            <h5>Gėlės jūsų šventei</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+          <img src="images/gimtadienis3.jpg" alt="prekė" class="card-img js--wp-3" />
+        </div>
+      </a>
+      <a href="vienetiniai.html">
+        <div class="card flex-row no-border">
+          <img src="images/vestuves.jpg" alt="prekė" class="card-img js--wp-4" />
+          <div class="card-text flex-column">
+            <img src="images/orn1.png" alt="ornamentas" class="ornament" />
+            <h5>Kompozicijos</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </div>
+      </a>
+    </div>
+  </section>
+
+  <section id="index6">
+    <div class="narrow flex-column">
+      <div class="flex-row index6-wrap">
+        <div class="index6-img">
+          <img src="./images/kompozicija.jpg" alt=""/>
+          <h3 class="js--wp-5">Norite unikalios kompozicijos?</h3>
+        </div>
+        <div class="index6-text">
+          <h4>Užsisakyti kompozicijas galite dviem būdais:</h4>
+          <div class="flex-row">
+            <div class="budas">
+              <i class="fas fa-comments"></i>
+              <p>
+                Atsiųskite į mūsų „Facebook“ paskyrą norimos kompozicijos
+                nuotrauką, norimą kompozicijų kiekį, datą, kada planuojate
+                atsiimti bei telefono numerį (kai kompozicijos būna
+                susodintos, mes išsiunčiame Jums SMS žinutę. Susodiname kuo
+                ankščiau, o atsiimti galite tada kai Jums reikės);
+              </p>
+            </div>
+            <div class="budas budas2">
+              <i class="fas fa-store"></i>
+              <p>
+                Atvykite į mūsų saloną ir gyvai išsirinkite keramiką/stiklo
+                indus bei augalus, dekorą ir kitas norimas detales -
+                susodinsime kompoziciją pagal individualius pageidavimus.
+              </p>
+            </div>
+          </div>
+          <br />
+          <div class="index6-text2">
+            <p>
+              Dėl augalų sezoniškumo bei kitų priežasčių mūsų turimi augalai
+              nuolat keičiasi, todėl negalime garantuoti, kad susodinsime
+              kompozicijas, identiškas pavaizduotoms nuotraukose. Taip pat
+              gali kisti keramikos bei stiklinių indų pasiūla. Tad mūsų
+              patarimas - kompozicijas užsisakinėkite kiek įmanoma anksčiau,
+              nes užsisakyti kompoziciją per anksti nebus, gali būti tik per
+              vėlai. <br /><br />
+              Puslapyje kainos nurodytos konkrečiai kompozicijai ir būtent su
+              tokiu dekoru. Kiekvienu atveju kompozicijos kaina gali skirtis
+              dėl dekoro bei kitų elementų kiekio panaudojimo kompozicijoje.
+            </p>
+          </div>
+          <!-- <p>Kainos nurodytos konkrečiai kompozicijai ir būtent su tokiu dekoru. Kiekvienu atveju kompozicijos kaina gali skirtis dėl dekoro bei kitų elementų kiekio panaudojimo kompozicijoje</p> -->
+        </div>
+      </div>
+      <div class="index6-text3">
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quasi ego id
-          curem, quid ille aiat aut neget. Quam illa ardentis amores excitaret
-          sui! Cur tandem? Nisi enim id faceret, cur Plato Aegyptum peragravit,
-          ut a sacerdotibus barbaris numeros et caelestia acciperet? Id et fieri
-          posse et saepe esse factum et ad voluptates percipiendas maxime
-          pertinere.
+          Dėl augalų sezoniškumo bei kitų priežasčių mūsų turimi augalai
+          nuolat keičiasi, todėl negalime garantuoti, kad susodinsime
+          kompozicijas, identiškas pavaizduotoms nuotraukose. Taip pat gali
+          kisti keramikos bei stiklinių indų pasiūla. Tad mūsų patarimas -
+          kompozicijas užsisakinėkite kiek įmanoma anksčiau, nes užsisakyti
+          kompoziciją per anksti nebus, gali būti tik per vėlai. <br /><br />
+          Puslapyje kainos nurodytos konkrečiai kompozicijai ir būtent su
+          tokiu dekoru. Kiekvienu atveju kompozicijos kaina gali skirtis dėl
+          dekoro bei kitų elementų kiekio panaudojimo kompozicijoje.
         </p>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <section id="index5">
-      <div>
-        <div id="circle">
-          <p class="flex-row">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quasi ego
-            id curem, quid ille aiat aut neget. Quam illa ardentis amores
-            excitaret sui! Cur tandem? Nisi enim id faceret, cur Plato Aegyptum
-            peragravit, ut a sacerdotibus barbaris numeros et caelestia
-            acciperet?
-          </p>
-        </div>
+  <section id="index4" class="flex-row">
+    <img src="images/picturee.jpg" alt="#" />
+    <div class="index4-text">
+      <h4>Pavadinimas</h4>
+      <hr />
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quasi ego id
+        curem, quid ille aiat aut neget. Quam illa ardentis amores excitaret
+        sui! Cur tandem? Nisi enim id faceret, cur Plato Aegyptum peragravit,
+        ut a sacerdotibus barbaris numeros et caelestia acciperet? Id et fieri
+        posse et saepe esse factum et ad voluptates percipiendas maxime
+        pertinere.
+      </p>
+    </div>
+  </section>
+
+  <section id="index5">
+    <div>
+      <div id="circle">
+        <p class="flex-row">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quasi ego
+          id curem, quid ille aiat aut neget. Quam illa ardentis amores
+          excitaret sui! Cur tandem? Nisi enim id faceret, cur Plato Aegyptum
+          peragravit, ut a sacerdotibus barbaris numeros et caelestia
+          acciperet?
+        </p>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <section id="links">
-      <div class="nuorodos">
-        <div class="nuoroda">
-          <h4>Apie mus</h4>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quasi ego
-            id curem, quid ille aiat aut neget. Quam illa ardentis amores
-            excitaret sui! Cur tandem? Nisi enim id faceret, cur Plato Aegyptum
-            peragravit, ut a sacerdotibus barbaris numeros et caelestia
-            acciperet? Id et fieri posse et saepe esse factum et ad voluptates
-            percipiendas maxime pertinere.
-          </p>
-        </div>
-        <div class="nuoroda">
-          <h4>Susisiekite</h4>
-          <p>
-            Gėlių interjero namai "Kitokios gėlės"<br />
-            UAB "Geroli"<br />
-            Įm. k. 302453148<br />
-            PVM LT100009957215<br />
-            Ats. sąsk. (Swedbank) LT417300010144197287<br /><br />
-
-            Telefonai:<br />
-            Parduotuvė (darbo valandomis) 8-678-83848<br />
-            Vadovas Gediminas Visockis 8-687-94107<br /><br />
-
-            Elektroninis paštas:<br />
-            gediminas.vis@gmail.com
-          </p>
-        </div>
-        <div class="nuoroda aplankykite">
-          <h4>Aplankykite mus</h4>
-          <p>
-            Adresas: Pramonės 16a, Kaunas, Vakarinė galerija, 4-a salė, 1-a
-            vieta <br />
-            <a href="parduotuve.html#content-map">Rodyti žemėlapį</a
-            ><br /><br />
-
-            Darbo laikas:<br />
-            I-V nuo 9.00 iki 18.00<br />
-            VI nuo 9.00 iki 16.30<br />
-            VII nuo 9.00 iki 14.30<br /><br />
-          </p>
-          <h4>Sekite mus</h4>
-          <a href="https://www.facebook.com/kitokiosgeles/"
-            ><i id="fb" class="fab fa-facebook"></i
-          ></a>
-          <a href="https://www.instagram.com/kitokiosgeles/"
-            ><i id="in" class="fab fa-instagram"></i
-          ></a>
-        </div>
+  <section id="links">
+    <div class="nuorodos">
+      <div class="nuoroda">
+        <h4>Apie mus</h4>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quasi ego
+          id curem, quid ille aiat aut neget. Quam illa ardentis amores
+          excitaret sui! Cur tandem? Nisi enim id faceret, cur Plato Aegyptum
+          peragravit, ut a sacerdotibus barbaris numeros et caelestia
+          acciperet? Id et fieri posse et saepe esse factum et ad voluptates
+          percipiendas maxime pertinere.
+        </p>
       </div>
-    </section>
+      <div class="nuoroda">
+        <h4>Susisiekite</h4>
+        <p>
+          Gėlių interjero namai "Kitokios gėlės"<br />
+          UAB "Geroli"<br />
+          Įm. k. 302453148<br />
+          PVM LT100009957215<br />
+          Ats. sąsk. (Swedbank) LT417300010144197287<br /><br />
 
-    <footer>
-      <div>
-        <p>www.kitokiosgeles.lt © 2019</p>
+          Telefonai:<br />
+          Parduotuvė (darbo valandomis) 8-678-83848<br />
+          Vadovas Gediminas Visockis 8-687-94107<br /><br />
+
+          Elektroninis paštas:<br />
+          gediminas.vis@gmail.com
+        </p>
       </div>
-    </footer>
+      <div class="nuoroda aplankykite">
+        <h4>Aplankykite mus</h4>
+        <p>
+          Adresas: Pramonės 16a, Kaunas, Vakarinė galerija, 4-a salė, 1-a
+          vieta <br />
+          <a href="parduotuve.html#content-map">Rodyti žemėlapį</a><br /><br />
 
-    <script src="js/script.js"></script>
-  </body>
+          Darbo laikas:<br />
+          I-V nuo 9.00 iki 18.00<br />
+          VI nuo 9.00 iki 16.30<br />
+          VII nuo 9.00 iki 14.30<br /><br />
+        </p>
+        <h4>Sekite mus</h4>
+        <a href="https://www.facebook.com/kitokiosgeles/"><i id="fb" class="fab fa-facebook"></i></a>
+        <a href="https://www.instagram.com/kitokiosgeles/"><i id="in" class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div>
+      <p>www.kitokiosgeles.lt © 2019</p>
+    </div>
+  </footer>
+
+  <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAGhWWNgPZAPWMoH-qkULr4cimWL86DQ5Y&callback=initMap">
+        </script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/script.js"></script>
+  <script src="js/animations.js"></script>
+  
+</body>
+
 </html>

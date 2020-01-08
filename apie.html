@@ -1,136 +1,180 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        
-        <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Poppins:300" rel="stylesheet">
-        <link href="css/icons.css" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
-        <link rel="stylesheet" type="text/css" href="css/queries.css">
-        <link href="https://fonts.googleapis.com/css?family=Caveat+Brush|Raleway:100,300,400,500,700&display=swap" rel="stylesheet">    </head>
 
-    <body>
-        <header>
-            <div id="header" class="flex-column">
-                <img src="images/logo.png" alt="logotipas" id="logo">
-                <div class="menu">
-                        <button onclick="mobileNav()"><i class="fas fa-bars"></i></button>
-                      </div>
-                <div id="navbar" class="nav row flex-row">
-                    <a href="index.html"><button>pradžia</button></a>
-                    <a href="sventems.html"><button>šventėms</button></a>
-                    <a href="vienetiniai.html"><button>vienetiniai</button></a>
-                    <a href="geles.html"><button>gėlės</button></a>
-                    <a href="prieziura.html"><button>gėlių priežiūra</button></a>
-                    <a href="apie.html"><button>apie mus</button></a>
-                    <a class="a-last" href="parduotuve.html"><button>parduotuvė</button></a>
-                </div>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Kitokios gėlės - tai kitokių gėlių parduotuvė.">
+
+  <link rel="stylesheet" type="text/css" href="css/icons.css" />
+  <link rel="stylesheet" type="text/css" href="css/popup.css" />
+  <link rel="stylesheet" type="text/css" href="css/animate.css" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <link rel="stylesheet" type="text/css" href="css/queries.css" />
+  <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Poppins:300" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Caveat+Brush|Raleway:100,300,400,500,700&display=swap"
+    rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  <title>Kitokios gėlės</title>
+
+  <link rel="apple-touch-icon" sizes="76x76" href="/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+  <link rel="manifest" href="favicon/site.webmanifest">
+  <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#ffc40d">
+  <meta name="theme-color" content="#ffffff">
+
+</head>
+
+<body>
+    <header>
+        <div id="header" class="flex-column">
+            <img src="images/logo.png" alt="logotipas" id="logo">
+            <div class="menu">
+                <button onclick="mobileNav()"><i class="fas fa-bars"></i></button>
             </div>
-        </header>
-
-        <section id="intarpas" class="flex-row">
-                <div class="green">
-                <div class="grey">
-                    <div class="title flex-row">
-                        <h2>Apie mus</h2>
-                    </div>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quasi ego id curem, quid ille aiat aut neget. Quam illa ardentis amores excitaret sui! Cur tandem? Nisi enim id faceret, cur Plato Aegyptum peragravit, ut a sacerdotibus barbaris numeros et caelestia acciperet? Id et fieri posse et saepe esse factum et ad voluptates percipiendas maxime pertinere.
-                    </p>
-                </div>
+            <div id="navbar" class="nav row flex-row">
+                <button><a href="index.html">pradžia</a></button>
+                <button><a href="sventems.html">šventėms</a></button>
+                <button><a href="vienetiniai.html">vienetiniai</a></button>
+                <button><a href="geles.html">gėlės</a></button>
+                <button><a href="prieziura.html">gėlių priežiūra</a></button>
+                <button><a href="apie.html">apie mus</a></button>
+                <button><a class="a-last" href="parduotuve.html">parduotuvė</a></button>
             </div>
-            </section>
+        </div>
+    </header>
 
-        <section id="apie1">
-            <div class="flex-row">
+    <section id="intarpas" class="flex-row">
+        <div class="green">
+            <div class="grey">
+                <div class="title flex-row">
+                    <h2>Apie mus</h2>
+                </div>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quasi ego id curem, quid ille aiat aut
+                    neget. Quam illa ardentis amores excitaret sui! Cur tandem? Nisi enim id faceret, cur Plato Aegyptum
+                    peragravit, ut a sacerdotibus barbaris numeros et caelestia acciperet? Id et fieri posse et saepe
+                    esse factum et ad voluptates percipiendas maxime pertinere.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="apie1">
+        <div class="flex-row">
             <div class="apie1-img-text">
                 <div class="flex-column">
-                        <img src="images/w.jpg" alt="">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque nostrum tempore modi autem laborum? Aliquam quisquam praesentium, cum error eligendi quam? Suscipit at animi cupiditate cum velit. Optio, reiciendis aperiam!  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore, suscipit, dicta libero cum soluta sed, temporibus voluptatum voluptas architecto vero quaerat impedit ad mollitia eos sequi praesentium? Iusto, unde quibusdam?</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita numquam accusamus sit rerum quisquam fuga dolorem ut, quibusdam praesentium aperiam et doloribus modi magnam itaque doloremque earum incidunt. Iste, corporis.<br><br>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi quo quidem, mollitia dicta molestias quibusdam quaerat similique nihil ratione itaque ipsa. In, delectus amet accusantium labore fugit illum voluptatem facilis!</p>
-                    </div>
+                    <img src="images/w.jpg" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque nostrum tempore modi autem
+                        laborum? Aliquam quisquam praesentium, cum error eligendi quam? Suscipit at animi cupiditate cum
+                        velit. Optio, reiciendis aperiam! Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                        Dolore, suscipit, dicta libero cum soluta sed, temporibus voluptatum voluptas architecto vero
+                        quaerat impedit ad mollitia eos sequi praesentium? Iusto, unde quibusdam?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita numquam accusamus sit rerum
+                        quisquam fuga dolorem ut, quibusdam praesentium aperiam et doloribus modi magnam itaque
+                        doloremque earum incidunt. Iste, corporis.<br><br>Lorem ipsum dolor sit, amet consectetur
+                        adipisicing elit. Sequi quo quidem, mollitia dicta molestias quibusdam quaerat similique nihil
+                        ratione itaque ipsa. In, delectus amet accusantium labore fugit illum voluptatem facilis!</p>
+                </div>
             </div>
-                <div class="apie1-round flex-column">
-                        
-                        <img src="images/gedas.jpg" alt="">
-                        <h4>apie mane</h4>
-                        <hr>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum in accusantium, voluptatem expedita, iure obcaecati quos nesciunt tempora nemo beatae qui iusto! Blanditiis officia omnis accusamus saepe tempora natus reprehenderit!</p>
-            </div>
-            </div>
+            <div class="apie1-round flex-column">
 
-        </section> 
-        
-        <section id="apie3" class="flex-row">
-            <h3>mes medijoje :</h3>
-            <div class="straipsniai">
-                <div class="flex-row">
-                    
+                <img src="images/gedas.jpg" alt="">
+                <h4>apie mane</h4>
+                <hr>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum in accusantium, voluptatem
+                    expedita, iure obcaecati quos nesciunt tempora nemo beatae qui iusto! Blanditiis officia omnis
+                    accusamus saepe tempora natus reprehenderit!</p>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="apie3" class="flex-row">
+        <h3>mes medijoje :</h3>
+        <div class="straipsniai">
+            <div class="flex-row">
+
                 <img src="/images/alfa.png" alt="">
-                <a href="https://www.alfa.lt/straipsnis/50276812/pavasaris-neskuba-ne-beda-zalumos-oaze-nesunkiai-susikursite-savo-rankomis?ref=astromanija-web">
-                <p>Pavasaris neskuba? Ne bėda, žalumos oazę nesunkiai susikursite savo rankomis
-                </p></a>
+                <a
+                    href="https://www.alfa.lt/straipsnis/50276812/pavasaris-neskuba-ne-beda-zalumos-oaze-nesunkiai-susikursite-savo-rankomis?ref=astromanija-web">
+                    <p>Pavasaris neskuba? Ne bėda, žalumos oazę nesunkiai susikursite savo rankomis
+                    </p>
+                </a>
             </div>
-                <div class="flex-row">
-                    <img src="/images/ve.png" alt="">
-                <a href="https://www.ve.lt/naujienos/laisvalaikis/stilius/stiliste-skandinaviskas-santurumas-ateina-ir-i-kaledine-puosyba-pavyzdziu-foto-1758901/"><p>Stilistė: skandinaviškas santūrumas ateina ir į kalėdinę puošybą</p></a>
+            <div class="flex-row">
+                <img src="/images/ve.png" alt="">
+                <a
+                    href="https://www.ve.lt/naujienos/laisvalaikis/stilius/stiliste-skandinaviskas-santurumas-ateina-ir-i-kaledine-puosyba-pavyzdziu-foto-1758901/">
+                    <p>Stilistė: skandinaviškas santūrumas ateina ir į kalėdinę puošybą</p>
+                </a>
             </div>
-                <div class="flex-row">
-                    <img src="/images/delfi.png" alt="">
-                <a href="https://www.delfi.lt/verslas/verslas/is-danijos-sugrizes-lietuvis-uzkure-kitokiu-geliu-versla.d?id=77934221"><p>Iš Danijos sugrįžęs lietuvis užkūrė kitokių gėlių verslą
-                </p></a>
+            <div class="flex-row">
+                <img src="/images/delfi.png" alt="">
+                <a
+                    href="https://www.delfi.lt/verslas/verslas/is-danijos-sugrizes-lietuvis-uzkure-kitokiu-geliu-versla.d?id=77934221">
+                    <p>Iš Danijos sugrįžęs lietuvis užkūrė kitokių gėlių verslą
+                    </p>
+                </a>
             </div>
-        </section>
+    </section>
 
-        <section id="links">
-			<div class="nuorodos">
-				<div class="nuoroda">
-					<h4>Apie mus</h4>
-					<p class="apie">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quasi ego id curem, quid ille aiat aut neget. Quam illa ardentis amores excitaret sui! Cur tandem? Nisi enim id faceret, cur Plato Aegyptum peragravit, ut a sacerdotibus barbaris numeros et caelestia acciperet? Id et fieri posse et saepe esse factum et ad voluptates percipiendas maxime pertinere.</p>
-				</div>
-				<div class="nuoroda">
-					<h4>Susisiekite</h4>
-                    <p class="apie">Gėlių interjero namai "Kitokios gėlės"<br>
-                        UAB "Geroli"<br>
-                        Įm. k. 302453148<br>
-                        PVM  LT100009957215<br>
-                        Ats. sąsk. (Swedbank) LT417300010144197287<br><br>
-                        
-                        Telefonai:<br>
-                        Parduotuvė (darbo valandomis) 8-678-83848<br>
-                        Vadovas Gediminas Visockis 8-687-94107<br><br>
-                        
-                        Elektroninis paštas:<br>
-                        gediminas.vis@gmail.com</p>
-				</div>
-				<div class="nuoroda aplankykite">
-                    <h4>Aplankykite mus</h4>
-                    <p class="apie">
+    <section id="links">
+        <div class="nuorodos">
+            <div class="nuoroda">
+                <h4>Apie mus</h4>
+                <p class="apie">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quasi ego id curem, quid ille aiat aut
+                    neget. Quam illa ardentis amores excitaret sui! Cur tandem? Nisi enim id faceret, cur Plato Aegyptum
+                    peragravit, ut a sacerdotibus barbaris numeros et caelestia acciperet? Id et fieri posse et saepe
+                    esse factum et ad voluptates percipiendas maxime pertinere.</p>
+            </div>
+            <div class="nuoroda">
+                <h4>Susisiekite</h4>
+                <p class="apie">Gėlių interjero namai "Kitokios gėlės"<br>
+                    UAB "Geroli"<br>
+                    Įm. k. 302453148<br>
+                    PVM LT100009957215<br>
+                    Ats. sąsk. (Swedbank) LT417300010144197287<br><br>
+
+                    Telefonai:<br>
+                    Parduotuvė (darbo valandomis) 8-678-83848<br>
+                    Vadovas Gediminas Visockis 8-687-94107<br><br>
+
+                    Elektroninis paštas:<br>
+                    gediminas.vis@gmail.com</p>
+            </div>
+            <div class="nuoroda aplankykite">
+                <h4>Aplankykite mus</h4>
+                <p class="apie">
                     Adresas: Pramonės 16a, Kaunas, Vakarinė galerija, 4-a salė, 1-a vieta <br>
                     <a href="parduotuve.html#content-map">Rodyti žemėlapį</a><br><br>
-                        
+
                     Darbo laikas:<br>
-                    I-V    nuo 9.00 iki 18.00<br>
-                    VI     nuo 9.00 iki 16.30<br>
-                    VII    nuo 9.00 iki 14.30<br><br>
-                    </p>
-                    <h4>Sekite mus</h4>
-					<a href="https://www.facebook.com/kitokiosgeles/"><i id="fb" class="fab fa-facebook"></i></a>
-					<a href="https://www.instagram.com/kitokiosgeles/"><i id="in" class="fab fa-instagram"></i></a>
-				</div>
-			</div>
-        </section>
-        
-        <footer>
-			<div>
-				<p>www.kitokiosgeles.lt © 2019</p>
-			</div>
-        </footer>
+                    I-V nuo 9.00 iki 18.00<br>
+                    VI nuo 9.00 iki 16.30<br>
+                    VII nuo 9.00 iki 14.30<br><br>
+                </p>
+                <h4>Sekite mus</h4>
+                <a href="https://www.facebook.com/kitokiosgeles/"><i id="fb" class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/kitokiosgeles/"><i id="in" class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div>
+            <p>www.kitokiosgeles.lt © 2019</p>
+        </div>
+    </footer>
 
     <script async defer
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAGhWWNgPZAPWMoH-qkULr4cimWL86DQ5Y&callback=initMap">
-    </script>
-        <script src="js/script.js"></script>
-    </body>
+        </script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/animations.js"></script>
+</body>
+
 </html>
