@@ -8,7 +8,8 @@
   .apie1-img-text img {
     width: 827px;
     height: 400px;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
     margin-bottom: 40px;
   }
   .apie1-round {
@@ -18,7 +19,8 @@
   .apie1-round img {
     width: 200px;
     height: 200px;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
     border: 0px transparent solid;
     border-radius: 200px;
     margin-bottom: 40px;
@@ -40,7 +42,9 @@
     margin: 10px 0;
   }
   .straipsniai .flex-row {
-    justify-content: flex-start;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
   }
   .straipsniai img {
     width: 17px;
@@ -215,9 +219,10 @@
   .nav {
     height: 50px;
   }
-  .nav button {
+  .nav a {
     height: 50px;
     width: 120px;
+    line-height: 50px;
   }
   h2 {
     font-size: 40px;
@@ -277,7 +282,10 @@
     width: 25px;
   }
   .index6-text .flex-row {
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   .budas2 {
     margin-left: 0;
@@ -289,6 +297,8 @@
     display: none;
   }
   .index6-text3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     width: 790px;
   }
@@ -440,16 +450,14 @@
 /* Small phones to small tablets: from 481px to 767px */
 
 @media only screen and (max-width: 767px) {
-  #navbar button {
+  #navbar a {
     display: block;
     height: 40px;
     position: relative;
     width: 120px;
     text-align: left;
     margin-left: 30px;
-  }
-  #navbar .a-last {
-    margin-bottom: 10px;
+    padding: 10px 0;
   }
   #navbar {
     height: auto;
@@ -481,8 +489,13 @@
     width: 440px;
   }
   .nuorodos {
-    flex-direction: column;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .nuoroda {
     width: 460px;
@@ -496,7 +509,8 @@
     width: 460px;
   }
   #index3 .flex-row {
-    flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
   }
   #index3 .product {
     width: 460px;
@@ -511,8 +525,11 @@
     margin-top: 7px;
   }
   #index2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
   }
   .index2-img {
     width: 460px;
@@ -538,8 +555,12 @@
     width: 230px;
   }
   .index6-wrap {
-    flex-direction: column;
-    flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
   }
   #index6 img {
     margin: 0;
@@ -562,7 +583,10 @@
     margin-left: 20px;
   }
   .index6-text .flex-row {
-    flex-direction: row;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
   }
   .index6-text .fa-store {
     margin-top: 0;
@@ -571,7 +595,8 @@
     width: 460px;
   }
   #index4 {
-    flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
   }
   #index4 img {
     width: 460px;
@@ -587,13 +612,15 @@
   }
   /* sventems */
   #sventems1 .flex-row {
-    flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
   }
   #sventems1 .product {
     margin: 7px 7px;
   }
   .element-bind {
-    flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
   }
   .element1 {
     width: 486px;
@@ -637,7 +664,8 @@
   /* vienetiniai */
   /* geles */
   #vienetiniai1 .flex-row {
-    flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
   }
   .column {
     width: 240px;
@@ -791,7 +819,10 @@
     height: 308px;
   }
   .prieziura-container .flex-row {
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   .isskleistas {
     width: 470px;
@@ -804,7 +835,8 @@
     width: 410px;
   }
   .w3-container {
-    flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
     width: 430px;
     margin: 20px 20px;
     padding: 0;
@@ -815,7 +847,10 @@
   }
   /* parduotuve */
   #parduotuve1 {
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   #parduotuve1 img {
     width: 430px;
@@ -872,13 +907,17 @@
   }
   .darken2:hover,
   .darken1:hover {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
 
   /* map */
   /* urmas */
   #content-map .flex-row {
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   #map, #urmas {
     width: 460px;
@@ -944,8 +983,12 @@
     width: 190px;
   }
   .index6-wrap {
-    flex-direction: column;
-    flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
   }
   #index6 img {
     width: 380px;
@@ -964,7 +1007,10 @@
     margin-left: 0;
   }
   .index6-text .flex-row {
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   .index6-text .fa-store {
     margin-top: 20px;
