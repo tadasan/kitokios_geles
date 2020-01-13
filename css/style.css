@@ -255,10 +255,8 @@ HEADER
 	color: #eee;
 }
 
-.cover {}
-
 #slides {
-	background-image: url(../images/coveriss.jpg);
+	background-image: url(../images/slide1.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 700px;
@@ -428,7 +426,7 @@ INDEX4
 }
 
 #intarpas {
-	background-image: url(../images/coverisss.jpg);
+	background-image: url(../images/koveris.jpg);
 	background-size: cover;
 	width: 100%;
 }
@@ -1367,4 +1365,8 @@ ANIMATIONS
 .js--wp-4.animated,
 .js--wp-5.animated {
 	opacity: 1;
+}
+
+.none {
+	display: none;
 }
