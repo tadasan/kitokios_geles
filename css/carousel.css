@@ -1,0 +1,59 @@
+.carousel-container {
+  overflow: hidden;
+  position: relative;
+}
+
+.carousel-slide {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.carousel-slide div {
+  width: 100%;
+  position: relative;
+  height: 600px;
+}
+
+.carousel-slide div img {
+  -o-object-fit: fill;
+     object-fit: fill;
+
+}
+
+.carousel-slide h1 {
+  position: absolute;
+  bottom: 10%;
+  width: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  background-color: #e0ddd7;
+  margin: 0 auto;
+  font-size: 200%;
+  font-weight: 700;
+  color: #123;
+  z-index: 10;
+}
+
+#prevBtn {
+  position: absolute;
+  top: 50%;
+  z-index: 10;
+  left: 3%;
+  font-size: 30px;
+  color: white;
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+#nextBtn {
+  position: absolute;
+  top: 50%;
+  z-index: 10;
+  right: 3%;
+  font-size: 30px;
+  color: white;
+  opacity: 0.7;
+  cursor: pointer;
+}

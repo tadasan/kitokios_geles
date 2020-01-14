@@ -263,19 +263,6 @@ HEADER
 	position: relative;
 }
 
-#hero-text {
-	position: absolute;
-	bottom: 120px;
-	/* background-color: rgba(12, 9, 9, 0.89); */
-	width: 50%;
-	height: 210px;
-}
-
-#hero-text h1 {
-	margin: 0 auto;
-	padding: 40px;
-}
-
 
 /* -------------
 INDEX1
@@ -456,7 +443,7 @@ INDEX5
 ---------------*/
 
 #index5 {
-	background-image: url(../images/w.jpg);
+	background-image: url(https://scontent.fvno6-1.fna.fbcdn.net/v/t1.0-9/p720x720/74157868_2755168024533211_1949637371079163904_o.jpg?_nc_cat=105&_nc_ohc=dMAjhaZrK6oAX-hHUFD&_nc_ht=scontent.fvno6-1.fna&_nc_tp=1&oh=28492ead4b88afef1b5ac6b70642ce70&oe=5E9BF56D);
 	background-size: cover;
 	height: 600px;
 	position: relative;

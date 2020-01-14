@@ -5,8 +5,10 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=0.9" />
   <meta name="description" content="Kitokios gėlės - tai kitokių gėlių parduotuvė.">
+  <title>Kitokios gėlės</title>
 
   <link rel="stylesheet" type="text/css" href="css/icons.css" />
+  <link rel="stylesheet" type="text/css" href="css/carousel.css" />
   <link rel="stylesheet" type="text/css" href="css/popup.css" />
   <link rel="stylesheet" type="text/css" href="css/animate.css" />
   <link rel="stylesheet" type="text/css" href="css/style.css" />
@@ -15,7 +17,7 @@
   <link href="https://fonts.googleapis.com/css?family=Caveat+Brush%7CRaleway:100,300,400,500,700&display=swap"
     rel="stylesheet" />
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <title>Kitokios gėlės</title>
+  <script src="https://kit.fontawesome.com/24033a9720.js" crossorigin="anonymous"></script>
 
   <link rel="apple-touch-icon" sizes="76x76" href="/favicon/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
@@ -44,12 +46,36 @@
         <a href="parduotuve.html">parduotuvė</a>
       </div>
   </header>
-  <div id="slides" class="row flex-column">
-    <div id="hero-text">
-      <h1>Atneškite savo gėlę pas mus ir mes ją padekoruosime</h1>
+  <!-- <div id="slides" class="row flex-column">  -->
+
+    <div class='carousel-container'>
+      <i class="fas fa-chevron-right" id='nextBtn'></i>
+      <i class="fas fa-chevron-left" id='prevBtn'></i>
+      <div class="carousel-slide">
+        <div>
+          <img id='lastClone' src='images/carousel/carousel3.jpg' alt='gele'>
+          <h1 id="hero-text">Apsilankykite mūsų parduotuvėje ir gėles išsirinkite patys</h1>
+        </div>
+        <div>        
+          <img src='images/carousel/carousel1.jpg' alt='gele'>
+          <h1 id="hero-text">Atneškite savo gėlę pas mus ir mes ją padekoruosime</h1>
+        </div>
+        <div>        
+          <img src='images/carousel/carousel2.jpg' alt='gele'>
+          <h1 id="hero-text">Vilniuje atsidarė nauja parduotuvė</h1>
+        </div>
+        <div>        
+          <img src='images/carousel/carousel3.jpg' alt='gele'>
+          <h1 id="hero-text">Apsilankykite mūsų parduotuvėje ir gėles išsirinkite patys</h1>
+        </div>
+        <div>        
+          <img id='firstClone' src='images/carousel/carousel1.jpg' alt='gele'>
+          <h1 id="hero-text">Atneškite savo gėlę pas mus ir mes ją padekoruosime</h1>
+        </div>
+      </div>
+
     </div>
-  </div>
-  </div>
+   <!-- </div> -->
 
   <section id="index3" class="flex-column jsnav">
     <h2>Kitokios gėlės</h2>
@@ -279,6 +305,7 @@
   <script src="js/jquery.waypoints.min.js"></script>
   <script src="js/script.js"></script>
   <script src="js/animations.js"></script>
+  <script src="js/carousel.js"></script>
 
 </body>
 
