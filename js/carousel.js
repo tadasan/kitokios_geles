@@ -1,3 +1,4 @@
+
 const carouselSlide = document.querySelector(".carousel-slide");
 const carouselImages = document.querySelectorAll(".carousel-slide div");
 
@@ -6,16 +7,24 @@ const nextBtn = document.querySelector("#nextBtn");
 
 let counter = 0;
 let autoOn = true;
-let size = carouselImages[0].clientWidth;
+let size;
+
+window.onload = () => {
+    size = carouselImages[1].clientWidth;
+}
+
+window.onresize = () => {
+    size = carouselImages[1].clientWidth;
+};
+
+console.log(size);
 const transitionParams = "transform 1s ease-in-out";
 
-carouselSlide.style.transform = "translateX(" + -size * counter + "px)";
-carouselSlide.style.transition = transitionParams;
 
 nextBtn.addEventListener("click", () => {
   autoOn = false;
   if (counter >= carouselImages.length - 1) return;
-  carouselSlide.style.transition = transitionParams;
+  carouselSlide.classList.add('slidingTransition');
   counter++;
   carouselSlide.style.transform = "translateX(" + -size * counter + "px)";
 });
@@ -23,20 +32,20 @@ nextBtn.addEventListener("click", () => {
 prevBtn.addEventListener("click", () => {
   autoOn = false;
   if (counter <= 0) return;
-  carouselSlide.style.transition = transitionParams;
+  carouselSlide.classList.add('slidingTransition');
   counter--;
   carouselSlide.style.transform = "translateX(" + -size * counter + "px)";
 });
 
 carouselSlide.addEventListener("transitionend", () => {
   if (carouselImages.length - 1 == counter) {
-    carouselSlide.style.transition = "none";
+    carouselSlide.classList.remove('slidingTransition');
     counter = 1;
     carouselSlide.style.transform = "translateX(" + -size * counter + "px)";
   }
 
   if (counter == 0) {
-    carouselSlide.style.transition = "none";
+    carouselSlide.classList.remove('slidingTransition');
     counter = carouselImages.length - 2;
     carouselSlide.style.transform = "translateX(" + -size * counter + "px)";
   }
@@ -45,19 +54,19 @@ carouselSlide.addEventListener("transitionend", () => {
 setInterval(() => {
   if (autoOn) {
     if (carouselImages.length - 1 == counter) {
-      carouselSlide.style.transition = "none";
+    carouselSlide.classList.remove('slidingTransition');
       counter = 1;
       carouselSlide.style.transform = "translateX(" + -size * counter + "px)";
     }
 
     counter++;
     carouselSlide.style.transform = "translateX(" + -size * counter + "px)";
-    carouselSlide.style.transition = transitionParams;
+    carouselSlide.classList.add('slidingTransition');
   }
 }, 4000);
 
 window.onresize = () => {
   size = carouselImages[0].clientWidth;
-  carouselSlide.style.transition = "none";
+  carouselSlide.classList.remove('slidingTransition');
   carouselSlide.style.transform = "translateX(" + -size * counter + "px)";
 };
