@@ -413,7 +413,8 @@ INDEX4
 }
 
 #intarpas {
-	background-image: url(../images/koveris.jpg);
+	/* background-image: url(../images/koveris.jpg); */
+	background-image: url(../images/6.jpg);
 	background-size: cover;
 	width: 100%;
 }

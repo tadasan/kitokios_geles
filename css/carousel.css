@@ -1,23 +1,28 @@
 .carousel-container {
   overflow: hidden;
   position: relative;
+  width: 100%;
+  max-width: 2000px;
+  margin: 0 auto;
 }
 
 .carousel-slide {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  width: 100%;
 }
 
 .carousel-slide div {
   width: 100%;
   position: relative;
-  height: 600px;
+  height: 550px;
 }
 
 .carousel-slide div img {
-  -o-object-fit: fill;
-     object-fit: fill;
+  width: 1600px;
+  -o-object-fit: cover;
+     object-fit: cover;
 
 }
 
