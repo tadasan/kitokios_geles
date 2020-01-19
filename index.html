@@ -34,19 +34,23 @@
     <div id="header" class="flex-column">
       <img src="images/logo.png" alt="logotipas" id="logo" />
       <div class="menu">
-        <button onclick="mobileNav()"><i class="fas fa-bars"></i></button>
+        <a onclick="mobileNav()"><i class="fas fa-bars"></i></a>
       </div>
-      <div id="navbar" class="nav row flex-row">
-        <a href="index.html">pradžia</a>
-        <a href="sventems.html">šventėms</a>
-        <a href="vienetiniai.html">vienetiniai</a>
-        <a href="geles.html">gėlės</a>
-        <a href="prieziura.html">gėlių priežiūra</a>
-        <a href="apie.html">apie mus</a>
-        <a href="parduotuve.html">parduotuvė</a>
+
+      <!-- <nav> -->
+        <ul id="navbar" class="row flex-row">
+          <li > <a href="index.html">pradžia</a></li>
+          <li> <a href="sventems.html">šventėms</a></li>
+          <li> <a href="vienetiniai.html">vienetiniai</a></li>
+          <li> <a href="geles.html">gėlės</a></li>
+          <li> <a href="prieziura.html">gėlių priežiūra</a></li>
+          <li> <a href="apie.html">apie mus</a></li>
+          <li> <a href="parduotuve.html">parduotuvė</a>
+        </ul>
+      <!-- </nav> -->
+     
       </div>
   </header>
-  <!-- <div id="slides" class="row flex-column">  -->
 
     <div class='carousel-container'>
       <i class="fas fa-chevron-right" id='nextBtn'></i>
@@ -75,7 +79,7 @@
       </div>
 
     </div>
-   <!-- </div> -->
+
 
   <section id="index3" class="flex-column jsnav">
     <h2>Kitokios gėlės</h2>
@@ -163,7 +167,7 @@
             <div class="budas">
               <i class="fas fa-comments"></i>
               <p>
-                Atsiųskite į mūsų „Facebook“ paskyrą norimos kompozicijos
+                Atsiųskite į mūsų <a href="https://www.facebook.com/kitokiosgeles/" >„Facebook“ paskyrą</a>  norimos kompozicijos
                 nuotrauką, norimą kompozicijų kiekį, datą, kada planuojate
                 atsiimti bei telefono numerį (kai kompozicijos būna
                 susodintos, mes išsiunčiame Jums SMS žinutę. Susodiname kuo

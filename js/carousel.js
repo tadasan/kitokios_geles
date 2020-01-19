@@ -17,7 +17,6 @@ window.onresize = () => {
     size = carouselImages[1].clientWidth;
 };
 
-console.log(size);
 const transitionParams = "transform 1s ease-in-out";
 
 

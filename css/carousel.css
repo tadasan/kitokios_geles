@@ -2,7 +2,7 @@
   overflow: hidden;
   position: relative;
   width: 100%;
-  max-width: 2000px;
+  max-width: 1600px;
   margin: 0 auto;
 }
 
@@ -33,11 +33,11 @@
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  background-color: #e0ddd7;
+  /* background-color: #e0ddd7; */
   margin: 0 auto;
   font-size: 200%;
   font-weight: 700;
-  color: #123;
+  color: #fff;
   z-index: 10;
 }
 
