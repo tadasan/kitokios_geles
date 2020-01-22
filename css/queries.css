@@ -113,14 +113,13 @@
     right: 25px;
   }
   /* sventems */
-  #sventems1 img {
+
+  #sventems1 .product, #sventems1 .product p,
+  #sventems1 img, #sventems1 h6 {
     width: 180px;
     height: 120px;
   }
-  #sventems1 .product, #sventems1 .product p {
-    width: 180px;
-    height: 120px;
-  }
+
   #sventems1 .product {
     margin: 0 7px;
   }
@@ -321,14 +320,13 @@
     height: 200px;
   }
   /* sventems */
-  #sventems1 img {
+
+  #sventems1 .product, #sventems1 .product p,
+  #sventems1 img, #sventems1 h6 {
     width: 155px;
     height: 103px;
   }
-  #sventems1 .product, #sventems1 .product p {
-    width: 155px;
-    height: 103px;
-  }
+
   #sventems1 .product {
     margin: 0 5px;
   }
