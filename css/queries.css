@@ -134,11 +134,8 @@
     width: 486px;
     height: 360px;
   }
-  .element2, .element3, .element4 {
-    width: 236px;
-    height: 360px;
-  }
-  .element3 img {
+  .element2, .element3, .element4,
+  .element3 img, .darken4 {
     width: 236px;
     height: 360px;
   }
@@ -381,11 +378,8 @@
     width: 404px;
     height: 303px;
   }
-  .element2, .element3, .element4 {
-    width: 197px;
-    height: 303px;
-  }
-  .element3 img {
+  .element2, .element3, .element4,
+  .element3 img, .darken4 {
     width: 197px;
     height: 303px;
   }
@@ -726,11 +720,8 @@
     width: 486px;
     height: 360px;
   }
-  .element2, .element3, .element4 {
-    width: 236px;
-    height: 360px;
-  }
-  .element3 img {
+  .element2, .element3, .element4,
+  .element3 img, .darken4 {
     width: 236px;
     height: 360px;
   }
@@ -766,145 +757,13 @@
   .column {
     width: 240px;
   }
-  .img-type1 {
-    height: 368px;
-  }
-  .img-type2 {
-    height: 228px;
-  }
   .img-type1 img {
     height: 320px;
   }
   .img-type2 img {
     height: 180px;
   }
-  /* .card-img {
-    height: 160px;
-    width: 230px;
-    margin: 10px 0;
-  }
 
-  .index6-wrap {
-    flex-direction: column;
-    flex-wrap: wrap;
-  }
-
-  #index6 img {
-    margin: 0;
-    width: 460px;
-    height: 460px;
-  }
-
-  #index6 h3 {
-    right: -20px;
-  }
-
-  .index6-text {
-    width: 460px;
-  }
-
-  .budas p {
-    width: 220px;
-  }
-
-  .budas2 {
-    margin-left: 20px;
-  }
-
-  .index6-text .flex-row {
-    flex-direction: row;
-  }
-
-  .index6-text .fa-store {
-    margin-top: 0;
-  }
-
-  .index6-text3 {
-    width: 460px;
-  }
-
-  #index4 {
-    flex-wrap: wrap;
-  }
-
-  #index4 img {
-    width: 460px;
-    height: 460px;
-    margin: 0;
-  }
-
-  .index4-text {
-    width: 460px;
-    padding-top: 20px;
-  }
-
-  #index5 {
-    height: 450px;
-  } 
-  */
-  /* sventems */
-  /* #sventems1 .flex-row {
-    flex-wrap: wrap;
-  }
-
-  #sventems1 .product {
-    margin: 7px 7px;
-  }
-
-  .element-bind {
-    flex-wrap: nowrap;
-  }
-
-  .element1 {
-    width: 486px;
-    height: 360px;
-  }
-
-  .element1 img {
-    width: 486px;
-    height: 360px;
-  }
-
-  .element2,
-  .element3,
-  .element4 {
-    width: 236px;
-    height: 360px;
-  }
-
-  .element3 img {
-    width: 236px;
-    height: 360px;
-  }
-
-  .element2 img {
-    width: 236px;
-    height: 177px;
-  }
-
-  .element4 img {
-    width: 90px;
-    height: 90px;
-  }
-
-  .element4-text {
-    width: 236px;
-    height: 203px;
-  }
-
-  .element2-text1 {
-    width: 236px;
-    height: 135px;
-  }
-
-  .element2-text2 {
-    width: 236px;
-    height: 43px;
-  }
-
-  .element1 h3 {
-    font-size: 160%;
-  }  */
   /* prieziura */
   .prieziura-container {
     width: 470px;
@@ -1021,58 +880,50 @@
     margin: 15px 0;
   }
   /* darken */
+
+  .darken:hover {
+    background-color: transparent;
+    position: relative;
+  }
+
+  .aprasymas-hide {
+    position: absolute;
+    display:block;
+    bottom:0;
+    height: auto;
+    background-color: rgba(17, 17, 17, 0.63);
+  }
+
+  .darken4 .aprasymas-hide {
+    width: 236px; 
+    bottom: 0;
+  }
+
   .darken1 {
     width: 240px;
-    height: 40px;
-    background-color: #fff;
-    position: absolute;
-    top: 328px;
+    height: 320px;
   }
-  .darken1:hover, .darken2:hover {
-    height: auto;
-    background-color: #fff;
-    z-index: 1;
-  }
+
   .darken2 {
+    width: 340px;
+    height:180px;
+  }
+
+  .darken1 .aprasymas-hide,
+  .darken2 .aprasymas-hide {
     width: 240px;
-    height: 40px;
-    background-color: #fff;
-    position: absolute;
-    top: 188px;
+    bottom:0;
+    left:0;
   }
-  .darken3, .darken3:hover {
-    width: 230px;
-    height: 230px;
-    margin: 0px;
-    left: 230px;
-    background-color: #fff;
-  }
+
   .darken p, .darken:hover p {
-    color: #444;
-  }
-  .apie-hide {
-    display: block;
+    color: #eee;
+    padding: 15px;
     position: absolute;
-  }
-  .darken .apie-hide {
+    bottom: 0;
     margin: 0;
   }
-  .aprasymas-hide {
-    display: none;
-  }
-  .darken2:hover .aprasymas-hide,
-  .darken1:hover .aprasymas-hide {
-    display: block;
-  }
-  .darken2:hover .apie-hide,
-  .darken1:hover .apie-hide {
-    display: none;
-  }
-  .darken2:hover,
-  .darken1:hover {
-    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  }
+
 
   /* map */
   /* urmas */
@@ -1208,11 +1059,8 @@
     width: 380px;
     height: 285px;
   }
-  .element2, .element3, .element4 {
-    width: 183px;
-    height: 285px;
-  }
-  .element3 img {
+  .element2, .element3, .element4,
+  .element3 img, .darken4 {
     width: 183px;
     height: 285px;
   }
@@ -1268,17 +1116,11 @@
   .column {
     width: 190px;
   }
-  .img-type1 {
-    height: 301px;
-  }
-  .img-type2 {
-    height: 190.5px;
-  }
   .img-type1 img {
     height: 253px;
   }
   .img-type2 img {
-    height: 142.5px;
+    height: 143px;
   }
   /* prieziura */
   .prieziura-container {
@@ -1379,15 +1221,18 @@
   /* darken */
   .darken1 {
     width: 190px;
-    top: 261px;
-  }
-  .darken1:hover, .darken2:hover {
-    margin-bottom: 10px;
+    height: 253px;
   }
   .darken2 {
     width: 190px;
-    top: 150.5px;
+    height: 143px;
   }
+
+  .darken1 .aprasymas-hide,
+  .darken2 .aprasymas-hide {
+    width: 190px;
+  }
+
   .darken3, .darken3:hover {
     width: 190px;
     height: 190px;
@@ -1493,11 +1338,8 @@
     width: 330px;
     height: 248px;
   }
-  .element2, .element3, .element4 {
-    width: 159px;
-    height: 248px;
-  }
-  .element3 img {
+  .element2, .element3, .element4,
+  .element3 img, .darken4 {
     width: 159px;
     height: 248px;
   }
@@ -1532,12 +1374,6 @@
   /* geles */
   .column {
     width: 165px;
-  }
-  .img-type1 {
-    height: 268px;
-  }
-  .img-type2 {
-    height: 172px;
   }
   .img-type1 img {
     height: 220px;
@@ -1617,12 +1453,18 @@
   /* darken */
   .darken1 {
     width: 165px;
-    top: 228px;
+    height: 220px;
   }
   .darken2 {
     width: 165px;
-    top: 132px;
+    height: 124px;
   }
+
+  .darken1 .aprasymas-hide,
+  .darken2 .aprasymas-hide {
+    width: 165px;
+  }
+
   .darken3, .darken3:hover {
     width: 165px;
     height: 165px;

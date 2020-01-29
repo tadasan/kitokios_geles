@@ -704,6 +704,10 @@ SVENTEMS2,3,4,5
 	background-color: #fff;
 }
 
+.element3 {
+	position: relative;
+}
+
 .element3 img {
 	-o-object-fit: cover;
 	   object-fit: cover;
@@ -750,7 +754,7 @@ SVENTEMS2,3,4,5
 }
 
 #sventems3 {
-	background-color: #ffffffef;
+	background-color: #fff;
 	background-size: cover;
 	background-attachment: fixed;
 }
@@ -781,6 +785,7 @@ SVENTEMS2,3,4,5
 	-ms-flex-wrap: wrap;
 	    flex-wrap: wrap;
 }
+
 
 /* -------------
 VIENETINIAI
@@ -857,6 +862,12 @@ DARKEN
 	width: 320px;
 	margin: 5px;
 	top: 0;
+}
+
+.darken4 {
+	width: 280px;
+	height: 427.5px;
+ top:0;
 }
 
 .darken p {
@@ -1414,70 +1425,4 @@ ANIMATIONS
 
 .none {
 	display: none;
-}
-
-
-
-
-
-
-
-
-.vestuvems-container {
-	width: 100%;
-	height: auto;
-	background: green;
-	display:flex;
-	justify-content: center;
-	flex-flow: row wrap;
-	align-items: stretch;
-}
-
-.vestuvems-box {
-	width: 300px;
-    height: 170px;
-	background:yellow;
-	margin: 20px;
-	font-size: 50px;
-}
-
-@media screen and (max-width:1200px) {
-	.vestuvems-box {
-		width: 40%;
-	}
-}
-
-@media screen and (max-width:600px) {
-	.vestuvems-box {
-		width: 90%;
-	}
-}
-
-
-.antras {
-	margin: 7px;
-	font-size: 0;
-	display: flex;
-	flex-flow: row wrap;
-}
-
-.antras div {
-	flex: auto;
-	width: 200px;
-	margin: 7px;
-}
-
-.antras div img {
-	width: 100%;
-	height: auto;
-}
-
-@media screen and (max-width:400px) {
-	.antras div {
-		margin: 2px;
-	}
-
-	.antras {
-		padding: 2px;
-	}
 }
