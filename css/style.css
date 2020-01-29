@@ -407,6 +407,10 @@ INDEX3
 	        transition-duration: 0.2s;
 }
 
+#sventems3 .ziureti-daugiau,
+#sventems5 .ziureti-daugiau {
+	background-color: #e0ddd7;}
+
 /* -------------
 INDEX4
 ---------------*/
@@ -781,7 +785,8 @@ SVENTEMS2,3,4,5
 	margin: 10px;
 }
 
-#sventems2 .flex-row, #sventems3 .flex-row, #sventems4 .flex-row, #sventems5 .flex-row, #sventems6 .flex-row {
+#sventems2 .flex-row, #sventems3 .flex-row, #sventems4 .flex-row, #sventems5 .flex-row, #sventems6 .flex-row,
+#svente1 .flex-row, #svente2 .flex-row {
 	-ms-flex-wrap: wrap;
 	    flex-wrap: wrap;
 }
