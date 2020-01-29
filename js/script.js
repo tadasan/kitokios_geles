@@ -25,16 +25,16 @@ function initMap() {
   var marker = new google.maps.Marker({ position: uluru, map: map });
 }
 
-function popup(id, textToChange) {
-  var x = document.getElementById(id);
-  if (x.className.indexOf("w3-show") == -1) {
-    x.className += " w3-show";
-    document.getElementById(textToChange).innerHTML = "Suskleisti";
-  } else {
-    x.className = x.className.replace(" w3-show", "");
-    document.getElementById(textToChange).innerHTML = "Gėlės priežiūra";
-  }
-}
+// function popup(id, textToChange) {
+//   var x = document.getElementById(id);
+//   if (x.className.indexOf("w3-show") == -1) {
+//     x.className += " w3-show";
+//     document.getElementById(textToChange).innerHTML = "Suskleisti";
+//   } else {
+//     x.className = x.className.replace(" w3-show", "");
+//     document.getElementById(textToChange).innerHTML = "Gėlės priežiūra";
+//   }
+// }
 
 function mobileNav() {
   var y = document.getElementById("navbar");

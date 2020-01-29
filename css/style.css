@@ -491,9 +491,11 @@ INDEX5
 #circle p {
 	color: white;
 	text-align: center;
-	width: 300px;
+	width: 200px;
 	height: 200px;
 	overflow: hidden;
+	text-transform: uppercase;
+	font-size: 100%;
 }
 
 /* -------------
@@ -966,8 +968,16 @@ i {
 	margin-bottom: 40px;
 }
 
-.w3-container {
+.isskleistas-container {
 	margin: 30px 0 20px 0;
+	padding: 0.01em 16px;
+	display: flex;
+}
+
+.isskleistas-green {
+	background-color: rgb(102, 125, 70);
+	width: 100%;
+	height: 30px
 }
 
 /* -------------
@@ -1129,21 +1139,16 @@ APIE
 	background-color: #e0ddd7;
 }
 
-.map {
-	margin-right: 30px;
-}
-
-#map, #urmas {
-	width: 600px;
-	height: 324px;
+iframe,
+#urmas {
+	width: 620px;
+	height: 400px;
 	margin: 0 10px 0 10px;
-	-webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-	        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #urmas img {
-	width: 600px;
-	height: 324px;
+	width: 620px;
+	height: 400px;
 }
 
 .map-urmas {
@@ -1409,4 +1414,70 @@ ANIMATIONS
 
 .none {
 	display: none;
+}
+
+
+
+
+
+
+
+
+.vestuvems-container {
+	width: 100%;
+	height: auto;
+	background: green;
+	display:flex;
+	justify-content: center;
+	flex-flow: row wrap;
+	align-items: stretch;
+}
+
+.vestuvems-box {
+	width: 300px;
+    height: 170px;
+	background:yellow;
+	margin: 20px;
+	font-size: 50px;
+}
+
+@media screen and (max-width:1200px) {
+	.vestuvems-box {
+		width: 40%;
+	}
+}
+
+@media screen and (max-width:600px) {
+	.vestuvems-box {
+		width: 90%;
+	}
+}
+
+
+.antras {
+	margin: 7px;
+	font-size: 0;
+	display: flex;
+	flex-flow: row wrap;
+}
+
+.antras div {
+	flex: auto;
+	width: 200px;
+	margin: 7px;
+}
+
+.antras div img {
+	width: 100%;
+	height: auto;
+}
+
+@media screen and (max-width:400px) {
+	.antras div {
+		margin: 2px;
+	}
+
+	.antras {
+		padding: 2px;
+	}
 }
