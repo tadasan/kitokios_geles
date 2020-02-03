@@ -658,7 +658,8 @@
   }
   /* vienetiniai */
   /* geles */
-  #vienetiniai1 .flex-row {
+  #vienetiniai1 .flex-row ,
+  #geles1 .flex-row {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
