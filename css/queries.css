@@ -1,33 +1,36 @@
 @media only screen and (max-width: 1297px) {
-  #apie1 .flex-row {
+  .apie1-container {
     width: 1290px;
   }
   .apie1-img-text {
-    width: 917px;
+    width: 933px;
   }
   .apie1-img-text img {
     width: 827px;
-    height: 400px;
+    height: 364px;
     -o-object-fit: cover;
        object-fit: cover;
     margin-bottom: 40px;
   }
-  .apie1-round {
+
+.apie-mane,
+.apie1-round {
+  width: 367px;
+}
+
+  .apie1-img img {
     width: 367px;
-    padding: 40px;
+    height: 275px;
   }
-  .apie1-round img {
-    width: 200px;
-    height: 200px;
-    -o-object-fit: cover;
-       object-fit: cover;
-    border: 0px transparent solid;
-    border-radius: 200px;
-    margin-bottom: 40px;
+
+  .apie1-img {
+    height: 285px;
   }
-  .apie1-round p {
-    margin-top: 12px;
+
+  .apie1-img-text2 {
+    width: 1290px;
   }
+
   #apie3 {
     background-color: rgb(102, 125, 70);
     width: 100%;
@@ -113,14 +116,13 @@
     right: 25px;
   }
   /* sventems */
-  #sventems1 img {
+
+  #sventems1 .product, #sventems1 .product p,
+  #sventems1 img, #sventems1 h6 {
     width: 180px;
     height: 120px;
   }
-  #sventems1 .product, #sventems1 .product p {
-    width: 180px;
-    height: 120px;
-  }
+
   #sventems1 .product {
     margin: 0 7px;
   }
@@ -132,11 +134,8 @@
     width: 486px;
     height: 360px;
   }
-  .element2, .element3, .element4 {
-    width: 236px;
-    height: 360px;
-  }
-  .element3 img {
+  .element2, .element3, .element4,
+  .element3 img, .darken4 {
     width: 236px;
     height: 360px;
   }
@@ -183,6 +182,43 @@
     width: 430px;
     height: 322.5;
   }
+
+    /* apie */
+
+    .apie1-container {
+      width: 1155px;
+    }
+    .apie1-img-text {
+      width: 835px;
+    }
+    .apie1-img-text img {
+      width: 755px;
+      height: 332px;
+    }
+  
+  .apie-mane,
+  .apie1-round {
+    width: 320px;
+  }
+  
+    .apie1-img img {
+      width: 320px;
+      height: 240px;
+    }
+  
+    .apie1-img {
+      height: 250px;
+    }
+  
+    .apie1-img-text2 {
+      width: 1155px;
+    }
+
+    .apie1-img-text2 img {
+      width:300px;
+      height: 300px;
+    }
+
   /* parduotuve */
   #parduotuve1 img {
     width: 310px;
@@ -203,13 +239,13 @@
   }
   /* map */
   /* urmas */
-  #map, #urmas {
-    width: 470px;
-    height: 254px;
+  iframe, #urmas {
+    width: 527px;
+    height: 340px;
   }
   #urmas img {
-    width: 470px;
-    height: 254px;
+    width: 527px;
+    height: 340px;
   }
 }
 
@@ -321,14 +357,13 @@
     height: 200px;
   }
   /* sventems */
-  #sventems1 img {
+
+  #sventems1 .product, #sventems1 .product p,
+  #sventems1 img, #sventems1 h6 {
     width: 155px;
     height: 103px;
   }
-  #sventems1 .product, #sventems1 .product p {
-    width: 155px;
-    height: 103px;
-  }
+
   #sventems1 .product {
     margin: 0 5px;
   }
@@ -343,11 +378,8 @@
     width: 404px;
     height: 303px;
   }
-  .element2, .element3, .element4 {
-    width: 197px;
-    height: 303px;
-  }
-  .element3 img {
+  .element2, .element3, .element4,
+  .element3 img, .darken4 {
     width: 197px;
     height: 303px;
   }
@@ -416,7 +448,65 @@
   .prieziura-text {
     width: 370px;
   }
+
+      /* apie */
+
+      .apie1-container {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .apie1-container {
+        width: 800px;
+      }
+      .apie1-img-text {
+        width: 800px;
+        border: none;
+      }
+      .apie1-img-text img {
+        width: 720px;
+        height: 316px;
+      }
+    
+    .apie-mane,
+    .apie1-round {
+      width: 800px;
+    }
+
+    .apie-mane {
+      margin-bottom: 10px;
+    }
+
+    .apie-mane > .flex-column {
+      flex-direction: row;
+    }
+    
+      .apie1-img img {
+        width: 320px;
+        height: 240px;
+      }
+    
+      .apie1-img {
+        display: none;
+      }
+    
+      .apie1-img-text2 {
+        width: 800px;
+        flex-direction: column;
+      }
+  
+      .apie1-img-text2 img {
+        margin-bottom: 40px;
+      }
+
+      .apie1-round img {
+        margin-bottom: 0px;
+        margin-right: 40px;
+      }
+
   /* parduotuve */
+
   #parduotuve1 img {
     width: 260px;
     height: 260px;
@@ -437,13 +527,13 @@
   }
   /* map */
   /* urmas */
-  #map, #urmas {
+  iframe, #urmas {
     width: 400px;
-    height: 216px;
+    height: 258px;
   }
   #urmas img {
     width: 400px;
-    height: 216px;
+    height: 258px;
   }
 }
 
@@ -630,14 +720,16 @@
     width: 486px;
     height: 360px;
   }
-  .element2, .element3, .element4 {
+  .element2, .element3, .element4,
+  .element3 img, .darken4 {
     width: 236px;
     height: 360px;
   }
-  .element3 img {
-    width: 236px;
-    height: 360px;
-  }
+
+.darken4 .aprasymas-hide {
+  width: 236px;
+}
+
   .element2 img {
     width: 236px;
     height: 177px;
@@ -670,145 +762,13 @@
   .column {
     width: 240px;
   }
-  .img-type1 {
-    height: 368px;
-  }
-  .img-type2 {
-    height: 228px;
-  }
   .img-type1 img {
     height: 320px;
   }
   .img-type2 img {
     height: 180px;
   }
-  /* .card-img {
-    height: 160px;
-    width: 230px;
-    margin: 10px 0;
-  }
 
-  .index6-wrap {
-    flex-direction: column;
-    flex-wrap: wrap;
-  }
-
-  #index6 img {
-    margin: 0;
-    width: 460px;
-    height: 460px;
-  }
-
-  #index6 h3 {
-    right: -20px;
-  }
-
-  .index6-text {
-    width: 460px;
-  }
-
-  .budas p {
-    width: 220px;
-  }
-
-  .budas2 {
-    margin-left: 20px;
-  }
-
-  .index6-text .flex-row {
-    flex-direction: row;
-  }
-
-  .index6-text .fa-store {
-    margin-top: 0;
-  }
-
-  .index6-text3 {
-    width: 460px;
-  }
-
-  #index4 {
-    flex-wrap: wrap;
-  }
-
-  #index4 img {
-    width: 460px;
-    height: 460px;
-    margin: 0;
-  }
-
-  .index4-text {
-    width: 460px;
-    padding-top: 20px;
-  }
-
-  #index5 {
-    height: 450px;
-  } 
-  */
-  /* sventems */
-  /* #sventems1 .flex-row {
-    flex-wrap: wrap;
-  }
-
-  #sventems1 .product {
-    margin: 7px 7px;
-  }
-
-  .element-bind {
-    flex-wrap: nowrap;
-  }
-
-  .element1 {
-    width: 486px;
-    height: 360px;
-  }
-
-  .element1 img {
-    width: 486px;
-    height: 360px;
-  }
-
-  .element2,
-  .element3,
-  .element4 {
-    width: 236px;
-    height: 360px;
-  }
-
-  .element3 img {
-    width: 236px;
-    height: 360px;
-  }
-
-  .element2 img {
-    width: 236px;
-    height: 177px;
-  }
-
-  .element4 img {
-    width: 90px;
-    height: 90px;
-  }
-
-  .element4-text {
-    width: 236px;
-    height: 203px;
-  }
-
-  .element2-text1 {
-    width: 236px;
-    height: 135px;
-  }
-
-  .element2-text2 {
-    width: 236px;
-    height: 43px;
-  }
-
-  .element1 h3 {
-    font-size: 160%;
-  }  */
   /* prieziura */
   .prieziura-container {
     width: 470px;
@@ -845,6 +805,73 @@
     width: 195px;
     margin: 10px 10px;
   }
+
+      /* apie */
+
+      .apie1-container {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .apie1-container {
+        width: 510px;
+      }
+      .apie1-img-text {
+        width: 510px;
+        border: none;
+      }
+      .apie1-img-text img {
+        width: 430px;
+        height: 189px;
+      }
+    
+    .apie-mane,
+    .apie1-round {
+      width: 510px;
+    }
+
+    .apie-mane {
+      margin-bottom: 10px;
+    }
+
+    .apie-mane > .flex-column {
+      flex-direction: column;
+    }
+    
+      .apie1-img img {
+        width: 320px;
+        height: 240px;
+      }
+    
+      .apie1-img-text2 {
+        width: 510px;
+        flex-direction: column;
+      }
+  
+      .apie1-img-text2 img {
+        margin: 0 0 40px 0;
+        width: 250px;
+        height: 250px;
+      }
+
+      .apie1-round img {
+        margin-bottom: 30px;
+        margin-right: 0px;
+      }
+
+      .straipsniai {
+        width: 300px;
+      }
+
+      #apie3 h3 {
+        margin-right: 25px;
+      }
+
+      #apie3 {
+        height: 250px;
+      }
+
   /* parduotuve */
   #parduotuve1 {
     -webkit-box-orient: vertical;
@@ -858,79 +885,76 @@
     margin: 15px 0;
   }
   /* darken */
+
+  .darken:hover {
+    background-color: transparent;
+    position: relative;
+  }
+
+  .aprasymas-hide {
+    position: absolute;
+    display:block;
+    bottom:0;
+    height: auto;
+    background-color: rgba(17, 17, 17, 0.63);
+  }
+
+  .darken4 .aprasymas-hide {
+    width: 236px; 
+    bottom: 0;
+  }
+
   .darken1 {
     width: 240px;
-    height: 40px;
-    background-color: #fff;
-    position: absolute;
-    top: 328px;
+    height: 320px;
   }
-  .darken1:hover, .darken2:hover {
-    height: auto;
-    background-color: #fff;
-    z-index: 1;
-  }
+
   .darken2 {
+    width: 340px;
+    height:180px;
+  }
+
+  .darken1 .aprasymas-hide,
+  .darken2 .aprasymas-hide {
     width: 240px;
-    height: 40px;
-    background-color: #fff;
-    position: absolute;
-    top: 188px;
+    bottom:0;
+    left:0;
   }
-  .darken3, .darken3:hover {
-    width: 230px;
-    height: 230px;
-    margin: 0px;
-    left: 230px;
-    background-color: #fff;
-  }
+
   .darken p, .darken:hover p {
-    color: #444;
-  }
-  .apie-hide {
-    display: block;
+    color: #eee;
+    padding: 15px;
     position: absolute;
-  }
-  .darken .apie-hide {
+    bottom: 0;
     margin: 0;
   }
-  .aprasymas-hide {
-    display: none;
-  }
-  .darken2:hover .aprasymas-hide,
-  .darken1:hover .aprasymas-hide {
-    display: block;
-  }
-  .darken2:hover .apie-hide,
-  .darken1:hover .apie-hide {
-    display: none;
-  }
-  .darken2:hover,
-  .darken1:hover {
-    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  }
+
 
   /* map */
   /* urmas */
-  #content-map .flex-row {
+  .map-urmas {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  #map, #urmas {
-    width: 460px;
-    height: 248px;
+  iframe, #urmas {
+    width: 519px;
+    height: 335px;
+    margin: 0 0 0 0px;
   }
-  #map {
-    margin-bottom: 30px;
-  }
+
   #urmas img {
-    width: 460px;
-    height: 248px;
+    width: 519px;
+    height: 335px;
+  }
+
+  #urmas {
+    margin-top: 20px;
   }
 }
+
+
 
 /* Small phones: from 350px to 480px */
 
@@ -1040,13 +1064,13 @@
     width: 380px;
     height: 285px;
   }
-  .element2, .element3, .element4 {
+  .element2, .element3, .element4,
+  .element3 img, .darken4 {
     width: 183px;
     height: 285px;
   }
-  .element3 img {
+  .darken4 .aprasymas-hide {
     width: 183px;
-    height: 285px;
   }
   .element2 img {
     width: 183px;
@@ -1100,17 +1124,11 @@
   .column {
     width: 190px;
   }
-  .img-type1 {
-    height: 301px;
-  }
-  .img-type2 {
-    height: 190.5px;
-  }
   .img-type1 img {
     height: 253px;
   }
   .img-type2 img {
-    height: 142.5px;
+    height: 143px;
   }
   /* prieziura */
   .prieziura-container {
@@ -1137,6 +1155,71 @@
   .prieziura-col {
     width: 165px;
   }
+
+      /* apie */
+
+      .apie1-container,
+      .apie1-img-text,
+      .apie-mane,
+      .apie1-round {
+        width: 380px;
+      }
+
+      .apie1-img-text img {
+        width: 340px;
+        height: 149px;
+      }
+
+      .apie1-round,
+      .apie1-img-text {
+        padding: 20px;
+      }
+
+      .apie1-round img {
+        width: 150px;
+        height: 150px;
+        margin: 20px 0 30px 0;
+      }
+
+    .apie-mane {
+      margin-bottom: 10px;
+    }
+
+    .apie-mane > .flex-column {
+      flex-direction: column;
+    }
+    
+      .apie1-img img {
+        width: 320px;
+        height: 240px;
+      }
+    
+      .apie1-img-text2 {
+        width: 380px;
+        padding: 20px;
+      }
+  
+      .apie1-img-text2 img {
+        margin: 20px 0 40px 0;
+      }
+
+      .straipsniai {
+        width: 350px;
+      }
+
+      #apie3 h3 {
+        margin-right: 0px;
+        text-align: center;
+      }
+
+      #apie3 {
+        flex-direction: column;
+      }
+
+      #apie3 {
+        height: auto;
+      }
+
   /* parduotuve */
   #parduotuve1 img {
     width: 340px;
@@ -1146,15 +1229,18 @@
   /* darken */
   .darken1 {
     width: 190px;
-    top: 261px;
-  }
-  .darken1:hover, .darken2:hover {
-    margin-bottom: 10px;
+    height: 253px;
   }
   .darken2 {
     width: 190px;
-    top: 150.5px;
+    height: 143px;
   }
+
+  .darken1 .aprasymas-hide,
+  .darken2 .aprasymas-hide {
+    width: 190px;
+  }
+
   .darken3, .darken3:hover {
     width: 190px;
     height: 190px;
@@ -1165,13 +1251,13 @@
   }
   /* map */
   /* urmas */
-  #map, #urmas {
+  iframe, #urmas {
     width: 380px;
-    height: 205px;
+    height: 245px;
   }
   #urmas img {
     width: 380px;
-    height: 205px;
+    height: 245px;
   }
 }
 
@@ -1260,13 +1346,13 @@
     width: 330px;
     height: 248px;
   }
-  .element2, .element3, .element4 {
+  .element2, .element3, .element4,
+  .element3 img, .darken4 {
     width: 159px;
     height: 248px;
   }
-  .element3 img {
+  .darken4 .aprasymas-hide {
     width: 159px;
-    height: 248px;
   }
   .element2 img {
     width: 159px;
@@ -1300,12 +1386,6 @@
   .column {
     width: 165px;
   }
-  .img-type1 {
-    height: 268px;
-  }
-  .img-type2 {
-    height: 172px;
-  }
   .img-type1 img {
     height: 220px;
   }
@@ -1335,6 +1415,47 @@
   .prieziura-col {
     width: 140px;
   }
+
+      /* apie */
+
+      .apie1-container,
+      .apie1-img-text,
+      .apie-mane,
+      .apie1-round {
+        width: 330px;
+      }
+
+      .apie1-img-text img {
+        width: 290px;
+        height: 128px;
+      }
+    
+      .apie1-img img {
+        width: 320px;
+        height: 240px;
+      }
+    
+      .apie1-img-text2 {
+        width: 330px;
+      }
+
+      .straipsniai {
+        width: 310px;
+      }
+
+      #apie3 h3 {
+        margin-right: 0px;
+        text-align: center;
+      }
+
+      #apie3 {
+        flex-direction: column;
+      }
+
+      #apie3 {
+        height: auto;
+      }
+
   /* parduotuve */
   #parduotuve1 img {
     width: 290px;
@@ -1343,12 +1464,18 @@
   /* darken */
   .darken1 {
     width: 165px;
-    top: 228px;
+    height: 220px;
   }
   .darken2 {
     width: 165px;
-    top: 132px;
+    height: 124px;
   }
+
+  .darken1 .aprasymas-hide,
+  .darken2 .aprasymas-hide {
+    width: 165px;
+  }
+
   .darken3, .darken3:hover {
     width: 165px;
     height: 165px;
@@ -1356,12 +1483,12 @@
   }
   /* map */
   /* urmas */
-  #map, #urmas {
+  iframe, #urmas {
     width: 330px;
-    height: 178px;
+    height: 213px;
   }
   #urmas img {
     width: 330px;
-    height: 178px;
+    height: 213px;
   }
 }
